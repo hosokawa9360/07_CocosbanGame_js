@@ -60,7 +60,8 @@ backgroundSpriteにsetAliasTexParametersを適用してるが、すべてのス�
 ####　課題１
 resフォルダに格納してある(スクリーンショット）を実装せよ  
 
-### パズルマップを作成する
+### パズル画面を作成する
 https://github.com/hosokawa9360/07_CocosbanGame_js/issues/3
+crateとplayerのスプライトを配列データに従って配置する
 
-##　木箱を配置するプログラムを実装せよ
+####　課題2　木箱を配置するプログラムを実装せよ
