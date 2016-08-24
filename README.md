@@ -9,6 +9,8 @@
 ######　スプライトシートの作成
 https://github.com/hosokawa9360/07_cocosbanGame_js/issues/1  
 
+git checkout -b splitesheetTest 2a5a0fe297a3d29e20c06208dddfd860bb1b97d8
+
 ######　スプライトシート参照 resouce.js
 ```
 var res = {
@@ -47,3 +49,13 @@ levelSprite.setPosition(240,110);
 levelSprite.setScale(5);
 this.addChild(levelSprite);
 ```
+
+######　アンチエイリアス処理を適用しない
+このゲームは昔のファミコンゲーム風の表現をするので、アンチエイリアス処理を止めるが、一般のゲームでは不要な処理なので注意すること。
+//アンチエイリアス処理を止める
+backgroundSprite.getTexture().setAliasTexParameters();
+
+backgroundSpriteにsetAliasTexParametersを適用してるが、すべてのスプライトがアンチエイリアス処理が施される。これは、スプライトシートに対して適用されたためである。
+
+######　課題１
+resフォルダに格納してある(スクリーンショット）を実装せよ　
