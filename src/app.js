@@ -30,7 +30,6 @@ var gameLayer = cc.Layer.extend({
     levelSprite.setPosition(240, 110);
     levelSprite.setScale(5);
     this.addChild(levelSprite);
-
     var crateSprite = cc.Sprite.create(cache.getSpriteFrame("crate.png"));
     var i = 2;//2行目
     var j = 2;//2列目
@@ -51,6 +50,7 @@ var gameLayer = cc.Layer.extend({
     playerSprite.setPosition(165+25*j, 185-25*i);
     playerSprite.setScale(5);
     this.addChild(playerSprite);
+
 
     return true;
   },
