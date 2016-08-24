@@ -50,12 +50,17 @@ levelSprite.setScale(5);
 this.addChild(levelSprite);
 ```
 
-######　アンチエイリアス処理を適用しない
-このゲームは昔のファミコンゲーム風の表現をするので、アンチエイリアス処理を止めるが、一般のゲームでは不要な処理なので注意すること。
-//アンチエイリアス処理を止める
-backgroundSprite.getTexture().setAliasTexParameters();
+######　アンチエイリアス処理を適用しない  
+このゲームは昔のファミコンゲーム風の表現をするので、アンチエイリアス処理を止めるが、一般のゲームでは不要な処理なので注意すること。  
+//アンチエイリアス処理を止める  
+backgroundSprite.getTexture().setAliasTexParameters();  
 
-backgroundSpriteにsetAliasTexParametersを適用してるが、すべてのスプライトがアンチエイリアス処理が施される。これは、スプライトシートに対して適用されたためである。
+backgroundSpriteにsetAliasTexParametersを適用してるが、すべてのスプライトがアンチエイリアス処理が施される。これは、スプライトシートに対して適用されたためである。  
 
-######　課題１
-resフォルダに格納してある(スクリーンショット）を実装せよ　
+####　課題１
+resフォルダに格納してある(スクリーンショット）を実装せよ  
+
+### パズルマップを作成する
+https://github.com/hosokawa9360/07_CocosbanGame_js/issues/3
+
+##　木箱を配置するプログラムを実装せよ

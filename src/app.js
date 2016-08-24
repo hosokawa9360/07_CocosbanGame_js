@@ -1,4 +1,16 @@
 var size;
+var level = [
+     [1,1,1,1,1,1,1],
+     [1,1,0,0,0,0,1],
+     [1,1,3,0,2,0,1],
+     [1,0,0,4,0,0,1],
+     [1,0,3,1,2,0,1],
+     [1,0,0,1,1,1,1],
+     [1,1,1,1,1,1,1]
+];
+var playerPosition; //マップ内のプレイやの位置(ｘ、ｙ)を保持する
+var playerSprite; //プレイヤーのスプライト
+
 var gameScene = cc.Scene.extend({
   onEnter: function() {
     this._super();
@@ -31,26 +43,33 @@ var gameLayer = cc.Layer.extend({
     levelSprite.setScale(5);
     this.addChild(levelSprite);
 
-    var crateSprite = cc.Sprite.create(cache.getSpriteFrame("crate.png"));
-    var i = 2;//2行目
-    var j = 2;//2列目
-    crateSprite.setPosition(165+25*j, 185-25*i);
-    crateSprite.setScale(5);
-    this.addChild(crateSprite);
+    for(i=0;i<7;i++){
 
-    crateSprite = cc.Sprite.create(cache.getSpriteFrame("crate.png"));
-    var i = 4;//4行目
-    var j = 2;//2列目
-    crateSprite.setPosition(165+25*j, 185-25*i);
-    crateSprite.setScale(5);
-    this.addChild(crateSprite);
+           for(j=0;j<7;j++){
+               switch(level[i][j]){
+               case 4:
+               case 6:
+                   playerSprite = cc.Sprite.create(cache.getSpriteFrame("player.png"));
+                   playerSprite.setPosition(165+25*j,185-25*i);
+                   playerSprite.setScale(5);
+                   this.addChild(playerSprite);
+                   playerPosition = {x:j,y:i};
 
-    i = 3;//3行目
-    j = 3;//3列目
-    var playerSprite = cc.Sprite.create(cache.getSpriteFrame("player.png"));
-    playerSprite.setPosition(165+25*j, 185-25*i);
-    playerSprite.setScale(5);
-    this.addChild(playerSprite);
+                   break;
+
+
+
+
+
+
+                   break;
+               default:
+
+               }
+           }
+       }
+
+
 
     return true;
   },
