@@ -19,7 +19,10 @@ var gameLayer = cc.Layer.extend({
     cache.addSpriteFrames(res.spritesheet_plist);
     var backgroundSprite = cc.Sprite.create(cache.getSpriteFrame("background.png"));
 
+　　　backgroundSprite.getTexture().setAliasTexParameters();
+
     backgroundSprite.setPosition(240,160);
+    //スプライトがとても小さいので拡大する
     backgroundSprite.setScale(5);
     this.addChild(backgroundSprite);
 
