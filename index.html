@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello Cocos2d-JS</title>
+    <script type="text/javascript" src="cocos2d-js-v3.11.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="src/resource.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="src/app.js" charset="UTF-8"></script>
+</head>
+<body>
+    <canvas id="gameCanvas" ></canvas>
+    <script type="text/javascript">
+          window.onload = function(){
+              cc.game.onStart = function(){
+                  //load resources
+                  // プログラムの画面全体を表示領域の画面に合わせる　Adjust viewport meta
+                   cc.view.adjustViewPort(true);
+
+                  //画面の縦横比をドットで指定する  ターゲットの解像度を指定し、ゲームキャンバスをブラウザのウインドサイズに合わせる
+                  cc.view.setDesignResolutionSize(480,320,  cc.ResolutionPolicy.SHOW_ALL);
+                  // 表示領域がリサイズされた場合、自動的にプログラムの画面をリサイズさせる
+                  cc.view.resizeWithBrowserSize(true);
+
+                  cc.LoaderScene.preload(g_resources, function () {
+                       cc.director.runScene(new gameScene());
+                  }, this);
+              };
+              cc.game.run("gameCanvas");
+          };
+    </script>
+</body>
+</html>
