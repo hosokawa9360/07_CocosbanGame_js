@@ -13,7 +13,9 @@ var gameScene = cc.Scene.extend({
 var gameLayer = cc.Layer.extend({
   init: function() {
     this._super();
+    //スプライトフレームのキャッシュオブジェクトを作成する
     cache = cc.spriteFrameCache;
+    //スプライトフレームのデータを読み込む
     cache.addSpriteFrames(res.spritesheet_plist);
     var backgroundSprite = cc.Sprite.create(cache.getSpriteFrame("background.png"));
 

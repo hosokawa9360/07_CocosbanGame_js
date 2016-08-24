@@ -2,17 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <dict>
-     <key>metadata</key>
-        <dict>
-            <key>format</key>
-            <integer>2</integer>
-            <key>realTextureFileName</key>
-            <string>spritesheet.png</string>
-            <key>size</key>
-            <string>{100,105}</string>
-            <key>textureFileName</key>
-            <string>spritesheet.png</string>
-        </dict>
         <key>frames</key>
         <dict>
             <key>background.png</key>
@@ -68,6 +57,18 @@
                 <string>{5,5}</string>
             </dict>
         </dict>
-       
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>spritesheet.png</string>
+            <key>size</key>
+            <string>{100,105}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:eebc564aaf72abfff2b6510a44d94df9:ad050d5322da080121963144983ee070:1de88c2a7237d4cdf78de8d8ad4f4c7e$</string>
+            <key>textureFileName</key>
+            <string>spritesheet.png</string>
+        </dict>
     </dict>
 </plist>
