@@ -1,5 +1,5 @@
 ##### 07_cocosbanGame  
-[https://hosokawa9360.github.io/07_cocosbanGame_js/](https://hosokawa9360.github.io/07_cocosbanGame_js/)  
+[https://hosokawa9360.github.io/07_cocosbanGame_js/](https://hosokawa9360.github.io/07_CocosbanGame_js/)  
 
 
 ### その１ 画像素材のロード　と　スプライトシートの作成　
