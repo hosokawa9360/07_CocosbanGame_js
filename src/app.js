@@ -97,8 +97,6 @@ swipeDirection();
 });
 //スワイプ方向を検出する処理
 function swipeDirection(){
-
-
     var distX = endTouch.x - startTouch.x ;
     var distY = endTouch.y - startTouch.y ;
     if(Math.abs(distX)+Math.abs(distY)>swipeTolerance){
