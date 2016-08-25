@@ -97,28 +97,66 @@ swipeDirection();
 });
 //スワイプ方向を検出する処理
 function swipeDirection(){
+
+
     var distX = endTouch.x - startTouch.x ;
     var distY = endTouch.y - startTouch.y ;
     if(Math.abs(distX)+Math.abs(distY)>swipeTolerance){
         if(Math.abs(distX)>Math.abs(distY)){
-            if(distX>0){
-              playerSprite.setPosition(playerSprite.getPosition().x+25,playerSprite.getPosition().y);
-                //move(-1,0);
+            if(distX>0){//右方向移動
+              //playerSprite.setPosition(playerSprite.getPosition().x+25,playerSprite.getPosition().y);
+                move(1,0);
             }
-            else{
-              playerSprite.setPosition(playerSprite.getPosition().x-25,playerSprite.getPosition().y);
-                //move(1,0);
+            else{//左方向移動
+              //playerSprite.setPosition(playerSprite.getPosition().x-25,playerSprite.getPosition().y);
+                move(-1,0);
             }
         }
         else{
-            if(distY>0){
-              playerSprite.setPosition(playerSprite.getPosition().x,playerSprite.getPosition().y+25);
-                //move(0,1);
+        //  console.log("endTouch.y "+endTouch.y );
+        //  console.log("startTouch.y "+startTouch.y );
+        //  console.log("distY "+ distY );
+            if(distY>0){ //上方向移動
+            //  playerSprite.setPosition(playerSprite.getPosition().x,playerSprite.getPosition().y+25);
+               console.log("上 move(0,-1) distY "+ distY );
+              move(0,-1);
+
             }
-            else{
-              playerSprite.setPosition(playerSprite.getPosition().x,playerSprite.getPosition().y-25);
-                //move(0,-1);
+            else{ //下方向移動
+              //playerSprite.setPosition(playerSprite.getPosition().x,playerSprite.getPosition().y-25);
+              console.log("下 move(0,1) distY "+ distY );
+              move(0,1);
             }
         }
+    }
+}
+
+function move(deltaX,deltaY){
+switch(level[playerPosition.y+deltaY][playerPosition.x+deltaX]){
+    case 0:
+    case 2:
+        level[playerPosition.y][playerPosition.x]-=4;
+        playerPosition.x+=deltaX;
+        playerPosition.y+=deltaY;
+        level[playerPosition.y][playerPosition.x]+=4;
+        playerSprite.setPosition(165+25*playerPosition.x,185-25*playerPosition.y);
+    break;
+    case 3:
+    case 5:
+        if(level[playerPosition.y+deltaY*2][playerPosition.x+deltaX*2]==0 ||
+           level[playerPosition.y+deltaY*2][playerPosition.x+deltaX*2]==2){
+            level[playerPosition.y][playerPosition.x]-=4;
+            playerPosition.x+=deltaX;
+            playerPosition.y+=deltaY;
+            level[playerPosition.y][playerPosition.x]+=1;
+            playerSprite.setPosition(165+25*playerPosition.x,185-25*playerPosition.y);
+            level[playerPosition.y+deltaY][playerPosition.x+deltaX]+=3;
+            var movingCrate = cratesArray[playerPosition.y][playerPosition.x];
+            movingCrate.setPosition(movingCrate.getPosition().x+25*deltaX,movingCrate.
+            getPosition().y-25*deltaY);
+            cratesArray[playerPosition.y+deltaY][playerPosition.x+deltaX]=movingCrate;
+            cratesArray[playerPosition.y][playerPosition.x]=null;
+        }
+        break;
     }
 }
