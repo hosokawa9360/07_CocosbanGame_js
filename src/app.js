@@ -12,6 +12,10 @@ var playerPosition; //マップ内のプレイやの位置(ｘ、ｙ)を保持�
 var playerSprite; //プレイヤーのスプライト
 var cratesArray = []; //配置した木箱のスプライトを配列に保持する
 
+var startTouch;
+var endTouch;
+var swipeTolerance = 10;//スワイプかを判断する閾値
+
 var gameScene = cc.Scene.extend({
   onEnter: function() {
     this._super();
@@ -74,9 +78,47 @@ var gameLayer = cc.Layer.extend({
         }
       }
     }
-
-
-
-    return true;
+    //return true;
+    cc.eventManager.addListener(listener, this);
   },
 });
+
+var listener = cc.EventListener.create({
+event: cc.EventListener.TOUCH_ONE_BY_ONE,
+swallowTouches: true,
+onTouchBegan:function (touch,event) {
+startTouch = touch.getLocation();
+return true;
+},
+onTouchEnded:function(touch, event){
+endTouch = touch.getLocation();
+swipeDirection();
+}
+});
+//スワイプ方向を検出する処理
+function swipeDirection(){
+    var distX = endTouch.x - startTouch.x ;
+    var distY = endTouch.y - startTouch.y ;
+    if(Math.abs(distX)+Math.abs(distY)>swipeTolerance){
+        if(Math.abs(distX)>Math.abs(distY)){
+            if(distX>0){
+              playerSprite.setPosition(playerSprite.getPosition().x+25,playerSprite.getPosition().y);
+                //move(-1,0);
+            }
+            else{
+              playerSprite.setPosition(playerSprite.getPosition().x-25,playerSprite.getPosition().y);
+                //move(1,0);
+            }
+        }
+        else{
+            if(distY>0){
+              playerSprite.setPosition(playerSprite.getPosition().x,playerSprite.getPosition().y+25);
+                //move(0,1);
+            }
+            else{
+              playerSprite.setPosition(playerSprite.getPosition().x,playerSprite.getPosition().y-25);
+                //move(0,-1);
+            }
+        }
+    }
+}

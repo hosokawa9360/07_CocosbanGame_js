@@ -1,0 +1,1704 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://github.com/hosokawa9360/07_CocosbanGame_js/issues/3 -->
+<html lang="en" class=" is-copy-enabled is-u2f-enabled"><head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    
+
+    <link crossorigin="anonymous" href="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/frameworks-99d7aa100f64ed4b204b8948da8202a5c3deea702d3ab311b71113e2d900c235.css" integrity="sha256-mdeqEA9k7UsgS4lI2oICpcPe6nAtOrMRtxET4tkAwjU=" media="all" rel="stylesheet">
+    <link crossorigin="anonymous" href="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/github-c5a213f80cb3fec6630be2bfb751131d772ed8d2f4fbbc3d8ec17afab33eef7d.css" integrity="sha256-xaIT+Ayz/sZjC+K/t1ETHXcu2NL0+7w9jsF6+rM+730=" media="all" rel="stylesheet">
+    
+    
+    
+    
+
+    <link as="script" href="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/frameworks-74e2880351ce368d8f0a52f12a7452b422bef6397d5477d8120207ea79f0dfd9.js" rel="preload">
+    
+    <link as="script" href="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/github-b7ab73ce182cf9e2d9553064684837bcf8cda8c31e573166c3ee515d2c3e09d5.js" rel="preload">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=device-width">
+    
+    <title>パズルマップを作成する · Issue #3 · hosokawa9360/07_CocosbanGame_js</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="https://github.com/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" href="https://github.com/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://github.com/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://github.com/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://github.com/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://github.com/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://github.com/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://github.com/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://github.com/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://github.com/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://github.com/apple-touch-icon-180x180.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="https://avatars2.githubusercontent.com/u/19336517?v=3&amp;s=400" name="twitter:image:src"><meta content="@github" name="twitter:site"><meta content="summary" name="twitter:card"><meta content="hosokawa9360/07_CocosbanGame_js" name="twitter:title"><meta content="07_CocosbanGame_js - 倉庫番ゲーム　スプライトシートを用いた画像素材のロード。スワイプの実装。" name="twitter:description">
+      <meta content="https://avatars2.githubusercontent.com/u/19336517?v=3&amp;s=400" property="og:image"><meta content="GitHub" property="og:site_name"><meta content="object" property="og:type"><meta content="hosokawa9360/07_CocosbanGame_js" property="og:title"><meta content="https://github.com/hosokawa9360/07_CocosbanGame_js" property="og:url"><meta content="07_CocosbanGame_js - 倉庫番ゲーム　スプライトシートを用いた画像素材のロード。スワイプの実装。" property="og:description">
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTkzMzY1MTc6OGUyZDk5ODcxODk1YTNlNDQyODJlNjdiZjIxYWJhMGM6ZWI3MzdiZDcxMDc3MzE5MWI2ZjUyYjlmMmIzODA1MTM0ODk0OWQ5YzJkYzJhZTZhYTM2MTg3ZjI4NTFmYzYwZA==--9a95828df2ad1cb73eb1f967916f6fb79a0dfcfc">
+    <meta name="pjax-timeout" content="1000">
+    <link rel="sudo-modal" href="https://github.com/sessions/sudo_modal">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host"><meta content="github" name="octolytics-app-id"><meta content="99982A3A:5EB1:8981AF6:57BD69D0" name="octolytics-dimension-request_id"><meta content="19336517" name="octolytics-actor-id"><meta content="hosokawa9360" name="octolytics-actor-login"><meta content="d2430385c49250944bddacaf5aa9dded0d986f475b5c25854b722dc25f193c31" name="octolytics-actor-hash">
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+
+        <meta name="hostname" content="github.com">
+    <meta name="user-login" content="hosokawa9360">
+
+        <meta name="expected-hostname" content="github.com">
+      <meta name="js-proxy-site-detection-payload" content="MWVjNzJjNzM4ZDA3Njk0MGY2Yzk5YThhODZkY2FkM2I4YzY2NDVlZWNmMzI1OGUxMDY1ZmJlNjg2YzMzNjBiNHx7InJlbW90ZV9hZGRyZXNzIjoiMTUzLjE1Mi40Mi41OCIsInJlcXVlc3RfaWQiOiI5OTk4MkEzQTo1RUIxOjg5ODFBRjY6NTdCRDY5RDAiLCJ0aW1lc3RhbXAiOjE0NzIwMzExODV9">
+
+
+      <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+    <meta name="html-safe-nonce" content="9b1b3a464da22976a7baaa44191e7841e5231db9">
+    <meta content="9a18e08f370017694cb07e9d3ca1878da7c8aafe" name="form-nonce">
+
+    <meta http-equiv="x-pjax-version" content="815aa92cfbc15ea6a1d05cfd3542565f">
+    
+
+      
+  <meta name="description" content="07_CocosbanGame_js - 倉庫番ゲーム　スプライトシートを用いた画像素材のロード。スワイプの実装。">
+  <meta name="go-import" content="github.com/hosokawa9360/07_CocosbanGame_js git https://github.com/hosokawa9360/07_CocosbanGame_js.git">
+
+  <meta content="19336517" name="octolytics-dimension-user_id"><meta content="hosokawa9360" name="octolytics-dimension-user_login"><meta content="66430544" name="octolytics-dimension-repository_id"><meta content="hosokawa9360/07_CocosbanGame_js" name="octolytics-dimension-repository_nwo"><meta content="true" name="octolytics-dimension-repository_public"><meta content="false" name="octolytics-dimension-repository_is_fork"><meta content="66430544" name="octolytics-dimension-repository_network_root_id"><meta content="hosokawa9360/07_CocosbanGame_js" name="octolytics-dimension-repository_network_root_nwo">
+  <link href="https://github.com/hosokawa9360/07_CocosbanGame_js/commits/master.atom" rel="alternate" title="Recent Commits to 07_CocosbanGame_js:master" type="application/atom+xml">
+
+
+  <meta name="selected-link" value="repo_issues" data-pjax-transient="true"><meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/issues/show" data-pjax-transient="true" name="analytics-location"><meta name="request-id" content="99982A3A:5EB0:63872BD:57BD6A6D" data-pjax-transient="true"><link href="https://github.com/hosokawa9360/07_CocosbanGame_js/commits/master.atom" rel="alternate" title="Recent Commits to 07_CocosbanGame_js:master" type="application/atom+xml" data-pjax-transient="true"></head>
+
+
+  <body class="logged-in  env-production windows vis-public">
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress" style="transition: width 0.4s ease 0s; width: 100%;"></div></div>
+    <a href="https://github.com/hosokawa9360/07_CocosbanGame_js/issues/3#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+
+    
+    
+    
+
+
+
+        <div class="header header-logged-in true" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <svg aria-hidden="true" class="octicon octicon-mark-github" height="28" version="1.1" viewBox="0 0 16 16" width="28"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+
+
+        <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="https://github.com/hosokawa9360/07_CocosbanGame_js/search" class="js-site-search-form" data-scoped-search-url="/hosokawa9360/07_CocosbanGame_js/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+      <div class="header-search-scope">This repository</div>
+      <input type="text" class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable" data-hotkey="s" name="q" placeholder="Search" aria-label="Search this repository" data-unscoped-placeholder="Search GitHub" data-scoped-placeholder="Search" autocapitalize="off">
+    </label>
+</form></div>
+
+
+      <ul class="header-nav left" role="navigation">
+        <li class="header-nav-item">
+          <a href="https://github.com/pulls" aria-label="Pull requests you created" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls">
+            Pull requests
+</a>        </li>
+        <li class="header-nav-item">
+          <a href="https://github.com/issues" aria-label="Issues you created" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:issues context:user" data-hotkey="g i" data-selected-links="/issues /issues/assigned /issues/mentioned /issues">
+            Issues
+</a>        </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://gist.github.com/" data-ga-click="Header, go to gist, text:gist">Gist</a>
+          </li>
+      </ul>
+
+    
+<ul class="header-nav user-nav right" id="user-links">
+  <li class="header-nav-item">
+    
+
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link tooltipped tooltipped-s js-menu-target" href="https://github.com/new" aria-label="Create new…" data-ga-click="Header, create new, icon:add">
+      <svg aria-hidden="true" class="octicon octicon-plus left" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 9H7v5H5V9H0V7h5V2h2v5h5z"></path></svg>
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <ul class="dropdown-menu dropdown-menu-sw">
+        
+<a class="dropdown-item" href="https://github.com/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a class="dropdown-item" href="https://github.com/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+
+  <a class="dropdown-item" href="https://github.com/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+
+  <div class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="hosokawa9360/07_CocosbanGame_js">This repository</span>
+  </div>
+    <a class="dropdown-item" href="https://github.com/hosokawa9360/07_CocosbanGame_js/issues/new" data-ga-click="Header, create new issue">
+      New issue
+    </a>
+    <a class="dropdown-item" href="https://github.com/hosokawa9360/07_CocosbanGame_js/settings/collaboration" data-ga-click="Header, create new collaborator">
+      New collaborator
+    </a>
+
+      </ul>
+    </div>
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link name tooltipped tooltipped-sw js-menu-target" href="https://github.com/hosokawa9360" aria-label="View profile and more" data-ga-click="Header, show menu, icon:avatar">
+      <img alt="@hosokawa9360" class="avatar" height="20" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/19336517" width="20">
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <div class="dropdown-menu dropdown-menu-sw">
+        <div class="dropdown-header header-nav-current-user css-truncate">
+          Signed in as <strong class="css-truncate-target">hosokawa9360</strong>
+        </div>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="https://github.com/hosokawa9360" data-ga-click="Header, go to profile, text:your profile">
+          Your profile
+        </a>
+          <a class="dropdown-item" href="https://github.com/stars" data-ga-click="Header, go to starred repos, text:your stars">
+            Your stars
+          </a>
+        <a class="dropdown-item" href="https://github.com/explore" data-ga-click="Header, go to explore, text:explore">
+          Explore
+        </a>
+          <a class="dropdown-item" href="https://github.com/integrations" data-ga-click="Header, go to integrations, text:integrations">
+            Integrations
+          </a>
+        <a class="dropdown-item" href="https://help.github.com/" data-ga-click="Header, go to help, text:help">
+          Help
+        </a>
+
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="https://github.com/settings/profile" data-ga-click="Header, go to settings, icon:settings">
+          Settings
+        </a>
+
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="https://github.com/logout" class="logout-form" data-form-nonce="9a18e08f370017694cb07e9d3ca1878da7c8aafe" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="Lb60RPpYz7p7nYI6OdkQ/XT5S3SIgsZGY+Uv/IY1CDIs2qfu9GdvqBDvlbQYRVllSOhvGOUX8njNGRn/BCRjOg=="></div>
+          <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+</form>      </div>
+    </div>
+  </li>
+</ul>
+
+
+    
+  </div>
+</div>
+
+
+      
+
+
+    <div id="start-of-content" class="accessibility-aid"></div>
+
+      <div id="js-flash-container">
+</div>
+
+
+    <div role="main">
+        <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode">
+    <div id="js-repo-pjax-container" data-pjax-container=""><div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
+  <div class="container repohead-details-container">
+
+    
+
+<ul class="pagehead-actions">
+
+  <li>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="https://github.com/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="9a18e08f370017694cb07e9d3ca1878da7c8aafe" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="/AZ0dJu+c8jMbyLLnoRhykBZdRBUOmFjK2uMM2lHYx/GyROAmYlVcpIhJE6MtiUAxvUc/KL+cMU9pFR31jUh/g=="></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="66430544">
+
+        <div class="select-menu js-menu-container js-select-menu">
+          <a href="https://github.com/hosokawa9360/07_CocosbanGame_js/subscription" class="btn btn-sm btn-with-count select-menu-button js-menu-target" role="button" tabindex="0" aria-haspopup="true" data-ga-click="Repository, click Watch settings, action:issues#show">
+            <span class="js-select-button">
+              <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+              Unwatch
+            </span>
+          </a>
+          <a class="social-count js-social-count" href="https://github.com/hosokawa9360/07_CocosbanGame_js/watchers" aria-label="1 user is watching this repository">
+            1
+          </a>
+
+        <div class="select-menu-modal-holder">
+          <div class="select-menu-modal subscription-menu-modal js-menu-content" aria-hidden="true">
+            <div class="select-menu-header js-navigation-enable" tabindex="-1">
+              <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+              <span class="select-menu-title">Notifications</span>
+            </div>
+
+              <div class="select-menu-list js-navigation-container" role="menu">
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                  <div class="select-menu-item-text">
+                    <input id="do_included" name="do" type="radio" value="included">
+                    <span class="select-menu-item-heading">Not watching</span>
+                    <span class="description">Be notified when participating or @mentioned.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+                      Watch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                  <div class="select-menu-item-text">
+                    <input checked="checked" id="do_subscribed" name="do" type="radio" value="subscribed">
+                    <span class="select-menu-item-heading">Watching</span>
+                    <span class="description">Be notified of all conversations.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+                      Unwatch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                  <div class="select-menu-item-text">
+                    <input id="do_ignore" name="do" type="radio" value="ignore">
+                    <span class="select-menu-item-heading">Ignoring</span>
+                    <span class="description">Never be notified.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-mute" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8 2.81v10.38c0 .67-.81 1-1.28.53L3 10H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h2l3.72-3.72C7.19 1.81 8 2.14 8 2.81zm7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06L11.44 8 9.47 9.97l1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06L13.56 8l1.97-1.97z"></path></svg>
+                      Stop ignoring
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+</form>
+  </li>
+
+  <li>
+    
+  <div class="js-toggler-container js-social-container starring-container ">
+
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="https://github.com/hosokawa9360/07_CocosbanGame_js/unstar" class="starred" data-form-nonce="9a18e08f370017694cb07e9d3ca1878da7c8aafe" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="wJynZL0tWgL3kNh7aPH/s41ZDDRwQGz61gS1MH3X5MD9vZNvyH2VmY1nU0QVbH6NHbLaEDt8MORCV5QlVTHlhA=="></div>
+      <button class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar hosokawa9360/07_CocosbanGame_js" data-ga-click="Repository, click unstar button, action:issues#show; text:Unstar">
+        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="https://github.com/hosokawa9360/07_CocosbanGame_js/stargazers" aria-label="0 users starred this repository">
+          0
+        </a>
+</form>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="https://github.com/hosokawa9360/07_CocosbanGame_js/star" class="unstarred" data-form-nonce="9a18e08f370017694cb07e9d3ca1878da7c8aafe" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="0hdYV/P+kRrWM3CDHty2Agh+6FGZE1dj3CJcquY3l4oG/YeuQPF2/oY0AGEuNX7DayxqtVrf11Omxx+Gv01V5Q=="></div>
+      <button class="btn btn-sm btn-with-count js-toggler-target" aria-label="Star this repository" title="Star hosokawa9360/07_CocosbanGame_js" data-ga-click="Repository, click star button, action:issues#show; text:Star">
+        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="https://github.com/hosokawa9360/07_CocosbanGame_js/stargazers" aria-label="0 users starred this repository">
+          0
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <a href="https://github.com/hosokawa9360/07_CocosbanGame_js/issues/3#fork-destination-box" class="btn btn-sm btn-with-count" title="Fork your own copy of hosokawa9360/07_CocosbanGame_js to your account" aria-label="Fork your own copy of hosokawa9360/07_CocosbanGame_js to your account" rel="facebox" data-ga-click="Repository, show fork modal, action:issues#show; text:Fork">
+              <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+            Fork
+          </a>
+
+          <div id="fork-destination-box" style="display: none;">
+            <h2 class="facebox-header" data-facebox-id="facebox-header">Where should we fork this repository?</h2>
+            <include-fragment src="" class="js-fork-select-fragment fork-select-fragment" data-url="/hosokawa9360/07_CocosbanGame_js/fork?fragment=1">
+              <img alt="Loading" height="64" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/octocat-spinner-128.gif" width="64">
+            </include-fragment>
+          </div>
+
+    <a href="https://github.com/hosokawa9360/07_CocosbanGame_js/network" class="social-count" aria-label="0 users are forked this repository">
+      0
+    </a>
+  </li>
+</ul>
+
+    <h1 class="public ">
+  <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+  <span class="author" itemprop="author"><a href="https://github.com/hosokawa9360" class="url fn" rel="author">hosokawa9360</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a href="https://github.com/hosokawa9360/07_CocosbanGame_js" data-pjax="#js-repo-pjax-container">07_CocosbanGame_js</a></strong>
+
+</h1>
+
+  </div>
+  <div class="container">
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax" itemscope="" itemtype="http://schema.org/BreadcrumbList" role="navigation" data-pjax="#js-repo-pjax-container">
+
+  <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="https://github.com/hosokawa9360/07_CocosbanGame_js" class="js-selected-navigation-item reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /hosokawa9360/07_CocosbanGame_js" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"></path></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a href="https://github.com/hosokawa9360/07_CocosbanGame_js/issues" aria-selected="true" class="js-selected-navigation-item reponav-item selected" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /hosokawa9360/07_CocosbanGame_js/issues" itemprop="url">
+        <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg>
+        <span itemprop="name">Issues</span>
+        <span class="counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="https://github.com/hosokawa9360/07_CocosbanGame_js/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /hosokawa9360/07_CocosbanGame_js/pulls" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+
+    <a href="https://github.com/hosokawa9360/07_CocosbanGame_js/wiki" class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /hosokawa9360/07_CocosbanGame_js/wiki">
+      <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"></path></svg>
+      Wiki
+</a>
+
+  <a href="https://github.com/hosokawa9360/07_CocosbanGame_js/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="pulse /hosokawa9360/07_CocosbanGame_js/pulse">
+    <svg aria-hidden="true" class="octicon octicon-pulse" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M11.5 8L8.8 5.4 6.6 8.5 5.5 1.6 2.38 8H0v2h3.6l.9-1.8.9 5.4L9 8.5l1.6 1.5H14V8z"></path></svg>
+    Pulse
+</a>
+  <a href="https://github.com/hosokawa9360/07_CocosbanGame_js/graphs" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors /hosokawa9360/07_CocosbanGame_js/graphs">
+    <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"></path></svg>
+    Graphs
+</a>
+    <a href="https://github.com/hosokawa9360/07_CocosbanGame_js/settings" class="js-selected-navigation-item reponav-item" data-selected-links="repo_settings repo_branch_settings hooks integration_installations /hosokawa9360/07_CocosbanGame_js/settings">
+      <svg aria-hidden="true" class="octicon octicon-gear" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 8.77v-1.6l-1.94-.64-.45-1.09.88-1.84-1.13-1.13-1.81.91-1.09-.45-.69-1.92h-1.6l-.63 1.94-1.11.45-1.84-.88-1.13 1.13.91 1.81-.45 1.09L0 7.23v1.59l1.94.64.45 1.09-.88 1.84 1.13 1.13 1.81-.91 1.09.45.69 1.92h1.59l.63-1.94 1.11-.45 1.84.88 1.13-1.13-.92-1.81.47-1.09L14 8.75v.02zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"></path></svg>
+      Settings
+</a>
+</nav>
+
+  </div>
+</div><div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+<style type="text/css" media="screen">
+  span.labelstyle-ee0701, .linked-labelstyle-ee0701 {  background-color: #ee0701 !important;  color: #fff !important;}.labelstyle-ee0701.selected {  background-color: #ee0701 !important;  color: #fff !important;}.label-select-menu .labelstyle-ee0701.selected {  background:rgba(238, 7, 1, 0.12) !important;  color: #990400 !important;}
+
+span.labelstyle-cccccc, .linked-labelstyle-cccccc {  background-color: #cccccc !important;  color: #333333 !important;}.labelstyle-cccccc.selected {  background-color: #cccccc !important;  color: #333333 !important;}.label-select-menu .labelstyle-cccccc.selected {  background:rgba(204, 204, 204, 0.12) !important;  color: #999999 !important;}
+
+span.labelstyle-84b6eb, .linked-labelstyle-84b6eb {  background-color: #84b6eb !important;  color: #1c2733 !important;}.labelstyle-84b6eb.selected {  background-color: #84b6eb !important;  color: #1c2733 !important;}.label-select-menu .labelstyle-84b6eb.selected {  background:rgba(132, 182, 235, 0.12) !important;  color: #557699 !important;}
+
+span.labelstyle-128A0C, .linked-labelstyle-128A0C {  background-color: #128A0C !important;  color: #fff !important;}.labelstyle-128A0C.selected {  background-color: #128A0C !important;  color: #fff !important;}.label-select-menu .labelstyle-128A0C.selected {  background:rgba(18, 138, 12, 0.12) !important;  color: #13990d !important;}
+
+span.labelstyle-e6e6e6, .linked-labelstyle-e6e6e6 {  background-color: #e6e6e6 !important;  color: #333333 !important;}.labelstyle-e6e6e6.selected {  background-color: #e6e6e6 !important;  color: #333333 !important;}.label-select-menu .labelstyle-e6e6e6.selected {  background:rgba(230, 230, 230, 0.12) !important;  color: #999999 !important;}
+
+span.labelstyle-cc317c, .linked-labelstyle-cc317c {  background-color: #cc317c !important;  color: #fff !important;}.labelstyle-cc317c.selected {  background-color: #cc317c !important;  color: #fff !important;}.label-select-menu .labelstyle-cc317c.selected {  background:rgba(204, 49, 124, 0.12) !important;  color: #99245c !important;}
+
+span.labelstyle-ffffff, .linked-labelstyle-ffffff {  background-color: #ffffff !important;  color: #333333 !important;}.labelstyle-ffffff.selected {  background-color: #ffffff !important;  color: #333333 !important;}.label-select-menu .labelstyle-ffffff.selected {  background:rgba(255, 255, 255, 0.12) !important;  color: #999999 !important;}
+</style>
+
+<div class="issues-listing" data-pjax="">
+    <div id="show_issue" class="js-issues-results">
+
+    
+  <div id="partial-discussion-header" class="gh-header js-details-container js-socket-channel js-updatable-content issue" data-channel="tenant:1:issue:172877090" data-url="/hosokawa9360/07_CocosbanGame_js/issues/3/show_partial?partial=issues%2Ftitle">
+
+  <div class="gh-header-show ">
+      <div class="gh-header-actions">
+          <button type="button" class="btn btn-sm js-details-target" aria-label="Edit Issue title">Edit</button>
+          <a href="https://github.com/hosokawa9360/07_CocosbanGame_js/issues/new" class="btn btn-sm btn-primary right" data-hotkey="c">
+            New issue
+          </a>
+      </div>
+
+    <h1 class="gh-header-title">
+      <span class=" js-issue-title">
+        
+        パズルマップを作成する
+      </span>
+      <span class="gh-header-number">#3</span>
+    </h1>
+  </div>
+
+    <div class="gh-header-edit">
+      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="https://github.com/hosokawa9360/07_CocosbanGame_js/issues/3" class="js-issue-update js-comment" data-form-nonce="9a18e08f370017694cb07e9d3ca1878da7c8aafe" data-remote="true" data-type="json" id="edit_header_172877090" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="t5ZVCDnPQB35Bl/YAFF82aG34pLiiTSpLEL7QJSTMNyZFlz1bVjMyCgPfeZpxmLjU5wPhgGa4aIUlGoDDmZcmg=="></div>
+        <input aria-label="Issue title" autofocus="autofocus" class="form-control edit-issue-title" id="issue_title" name="issue[title]" size="30" tabindex="1" type="text" value="パズルマップを作成する">
+        <button class="btn" type="submit" data-disable-with="Updating" tabindex="1">Save</button>
+        <button class="btn-link js-details-target" type="button">Cancel</button>
+</form>    </div>
+
+  <div class="flex-table gh-header-meta">
+    <div class="flex-table-item">
+        <div class="state state-closed">
+          <svg aria-hidden="true" class="octicon octicon-issue-closed" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"></path></svg>
+          Closed
+        </div>
+    </div>
+    <div class="flex-table-item flex-table-item-primary">
+        <a href="https://github.com/hosokawa9360" class="author">hosokawa9360</a>  opened this <span class="noun">Issue</span> <relative-time datetime="2016-08-24T06:49:17Z" title="2016年8月24日 15:49 JST">3 hours ago</relative-time>
+        · 1 comment
+    </div>
+  </div>
+</div>
+
+
+    <div id="discussion_bucket" class="clearfix">
+      <div class="discussion-sidebar is-placeholder" style="visibility: hidden; display: none; height: 464.702px;"></div><div class="discussion-sidebar js-sticky" style="position: static;">
+        <div id="partial-discussion-sidebar" class="js-socket-channel js-updatable-content" data-channel="tenant:1:issue:172877090" data-url="/hosokawa9360/07_CocosbanGame_js/issues/3/show_partial?partial=issues%2Fsidebar">
+  <div class="discussion-sidebar-item sidebar-labels js-discussion-sidebar-item">
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="https://github.com/hosokawa9360/07_CocosbanGame_js/issues/3?partial=issues%2Fsidebar%2Fshow%2Flabels" class="js-issue-sidebar-form" data-form-nonce="9a18e08f370017694cb07e9d3ca1878da7c8aafe" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="QBlt4uMlQqUjDaGQv4cWTnU3BjCxITmQGfCRbyqEWaKuZnSK3+2OyzqtesxgmUUDiEJ4WBBLG8OCSdAFFv7VLA=="></div>
+      
+  <div class="select-menu js-menu-container js-select-menu js-load-contents label-select-menu" data-contents-url="/hosokawa9360/07_CocosbanGame_js/issues/3/show_partial?partial=issues%2Fsidebar%2Flabels_menu_content" data-multiple="">
+
+    <button type="button" class="discussion-sidebar-heading discussion-sidebar-toggle js-menu-target" aria-label="Apply labels to this issue" aria-haspopup="true" data-hotkey="l">
+      <svg aria-hidden="true" class="octicon octicon-gear" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 8.77v-1.6l-1.94-.64-.45-1.09.88-1.84-1.13-1.13-1.81.91-1.09-.45-.69-1.92h-1.6l-.63 1.94-1.11.45-1.84-.88-1.13 1.13.91 1.81-.45 1.09L0 7.23v1.59l1.94.64.45 1.09-.88 1.84 1.13 1.13 1.81-.91 1.09.45.69 1.92h1.59l.63-1.94 1.11-.45 1.84.88 1.13-1.13-.92-1.81.47-1.09L14 8.75v.02zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"></path></svg>
+      Labels
+    </button>
+
+    <div class="select-menu-modal-holder js-menu-content js-navigation-container" aria-hidden="true">
+      <div class="select-menu-modal">
+        <div class="select-menu-header">
+          <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+          <span class="select-menu-title">Apply labels to this issue</span>
+        </div>
+
+          <div class="js-select-menu-deferred-content"></div>
+          <div class="select-menu-loading-overlay anim-pulse">
+            <svg aria-hidden="true" class="octicon octicon-octoface" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="labels css-truncate">
+    None yet
+</div>
+
+</form></div>
+
+  <div class="discussion-sidebar-item sidebar-milestone js-discussion-sidebar-item">
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="https://github.com/hosokawa9360/07_CocosbanGame_js/issues/3/set_milestone?partial=issues%2Fsidebar%2Fshow%2Fmilestone" class="js-issue-sidebar-form" data-form-nonce="9a18e08f370017694cb07e9d3ca1878da7c8aafe" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="c4w7HnAXKRv2frUADvpO0F8joYRaKy1BTz7yivvsX1JfylrrTFrYnE4h03USvzOpjiEwSmmyxJQHo8SWZVxwtA=="></div>
+    
+  <div class="select-menu js-menu-container js-select-menu js-load-contents " data-contents-url="/hosokawa9360/07_CocosbanGame_js/issues/3/show_partial?partial=issues%2Fsidebar%2Fmilestone_menu_content">
+
+    <button type="button" class="discussion-sidebar-heading discussion-sidebar-toggle js-menu-target" aria-label="Set milestone" aria-haspopup="true" data-hotkey="m">
+      <svg aria-hidden="true" class="octicon octicon-gear" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 8.77v-1.6l-1.94-.64-.45-1.09.88-1.84-1.13-1.13-1.81.91-1.09-.45-.69-1.92h-1.6l-.63 1.94-1.11.45-1.84-.88-1.13 1.13.91 1.81-.45 1.09L0 7.23v1.59l1.94.64.45 1.09-.88 1.84 1.13 1.13 1.81-.91 1.09.45.69 1.92h1.59l.63-1.94 1.11-.45 1.84.88 1.13-1.13-.92-1.81.47-1.09L14 8.75v.02zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"></path></svg>
+      Milestone
+    </button>
+
+    <div class="select-menu-modal-holder js-menu-content js-navigation-container" aria-hidden="true">
+      <div class="select-menu-modal">
+        <div class="select-menu-header">
+          <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+          <span class="select-menu-title">Set milestone</span>
+        </div>
+
+          <div class="js-select-menu-deferred-content"></div>
+          <div class="select-menu-loading-overlay anim-pulse">
+            <svg aria-hidden="true" class="octicon octicon-octoface" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+      No milestone
+
+</form></div>
+
+  <div class="discussion-sidebar-item sidebar-assignee js-discussion-sidebar-item">
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="https://github.com/hosokawa9360/07_CocosbanGame_js/issues/3?partial=issues%2Fsidebar%2Fshow%2Fassignees" class="js-issue-sidebar-form" data-form-nonce="9a18e08f370017694cb07e9d3ca1878da7c8aafe" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="KsAc1+brTHP7veyXRxdivmOf9KoBqiKUp9YtYGW2S61rmWXXP8p8ZSgpUOSdduzh7iPegfgc2rU+/d1vJodtRg=="></div>
+    
+  <div class="select-menu js-menu-container js-select-menu js-load-contents " data-contents-url="/hosokawa9360/07_CocosbanGame_js/issues/3/show_partial?partial=issues%2Fsidebar%2Fassignees_menu_content" data-multiple="" data-max-options="10">
+
+    <button type="button" class="discussion-sidebar-heading discussion-sidebar-toggle js-menu-target" aria-label="Assign up to 10 people to this issue" aria-haspopup="true" data-hotkey="a">
+      <svg aria-hidden="true" class="octicon octicon-gear" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 8.77v-1.6l-1.94-.64-.45-1.09.88-1.84-1.13-1.13-1.81.91-1.09-.45-.69-1.92h-1.6l-.63 1.94-1.11.45-1.84-.88-1.13 1.13.91 1.81-.45 1.09L0 7.23v1.59l1.94.64.45 1.09-.88 1.84 1.13 1.13 1.81-.91 1.09.45.69 1.92h1.59l.63-1.94 1.11-.45 1.84.88 1.13-1.13-.92-1.81.47-1.09L14 8.75v.02zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"></path></svg>
+      Assignees
+    </button>
+
+    <div class="select-menu-modal-holder js-menu-content js-navigation-container" aria-hidden="true">
+      <div class="select-menu-modal">
+        <div class="select-menu-header">
+          <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+          <span class="select-menu-title">Assign up to 10 people to this issue</span>
+        </div>
+
+          <div class="js-select-menu-deferred-content"></div>
+          <div class="select-menu-loading-overlay anim-pulse">
+            <svg aria-hidden="true" class="octicon octicon-octoface" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+    <span class="css-truncate">
+    No one—<button type="submit" class="btn-link muted-link js-issue-assign-self" name="issue[user_assignee_ids][]" value="19336517">assign yourself</button>
+</span>
+
+</form></div>
+
+
+
+  <div id="partial-users-participants" class="discussion-sidebar-item">
+  <div class="participation">
+
+    <h3 class="discussion-sidebar-heading">
+      1 participant
+    </h3>
+    <div class="participation-avatars">
+        <a class="participant-avatar tooltipped tooltipped-n" aria-label="hosokawa9360" href="https://github.com/hosokawa9360"><img alt="@hosokawa9360" class="avatar" height="26" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/19336517(1)" width="26"> </a>
+    </div>
+  </div>
+</div>
+
+
+    <div class="discussion-sidebar-item sidebar-notifications">
+    <h3 class="discussion-sidebar-heading">Notifications</h3>
+    <div class="thread-subscription-status js-thread-subscription-status js-socket-channel js-updatable-content" data-channel="tenant:1:thread-subscription:172877090:19336517" data-url="/notifications/thread_subscription?repository_id=66430544&amp;thread_class=Issue&amp;thread_id=172877090">
+
+  <svg aria-hidden="true" class="octicon octicon-radio-tower" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path d="M4.79 6.11c.25-.25.25-.67 0-.92-.32-.33-.48-.76-.48-1.19 0-.43.16-.86.48-1.19.25-.26.25-.67 0-.92a.613.613 0 0 0-.45-.19c-.16 0-.33.06-.45.19-.57.58-.85 1.35-.85 2.11 0 .76.29 1.53.85 2.11.25.25.66.25.9 0zM2.33.52a.651.651 0 0 0-.92 0C.48 1.48.01 2.74.01 3.99c0 1.26.47 2.52 1.4 3.48.25.26.66.26.91 0s.25-.68 0-.94c-.68-.7-1.02-1.62-1.02-2.54 0-.92.34-1.84 1.02-2.54a.66.66 0 0 0 .01-.93zm5.69 5.1A1.62 1.62 0 1 0 6.4 4c-.01.89.72 1.62 1.62 1.62zM14.59.53a.628.628 0 0 0-.91 0c-.25.26-.25.68 0 .94.68.7 1.02 1.62 1.02 2.54 0 .92-.34 1.83-1.02 2.54-.25.26-.25.68 0 .94a.651.651 0 0 0 .92 0c.93-.96 1.4-2.22 1.4-3.48A5.048 5.048 0 0 0 14.59.53zM8.02 6.92c-.41 0-.83-.1-1.2-.3l-3.15 8.37h1.49l.86-1h4l.84 1h1.49L9.21 6.62c-.38.2-.78.3-1.19.3zm-.01.48L9.02 11h-2l.99-3.6zm-1.99 5.59l1-1h2l1 1h-4zm5.19-11.1c-.25.25-.25.67 0 .92.32.33.48.76.48 1.19 0 .43-.16.86-.48 1.19-.25.26-.25.67 0 .92a.63.63 0 0 0 .9 0c.57-.58.85-1.35.85-2.11 0-.76-.28-1.53-.85-2.11a.634.634 0 0 0-.9 0z"></path></svg>
+
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="https://github.com/notifications/thread" class="thread-subscribe-form" data-form-nonce="9a18e08f370017694cb07e9d3ca1878da7c8aafe" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="ENCztycPJYSBwmoLLjCQ2ZQXJ/Y9ZC/902Q5l9HxlxXoS79Lw+pwYNrT5zkGxUtUkdy2WQPuaPSUsENe8rfZ/g=="></div>    <input type="hidden" name="repository_id" value="66430544">
+    <input type="hidden" name="thread_id" value="172877090">
+    <input type="hidden" name="thread_class" value="Issue">
+    <input type="hidden" name="id" value="mute">
+
+    <button class="btn btn-sm" type="submit" data-disable-with="">
+      <svg aria-hidden="true" class="octicon octicon-mute" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8 2.81v10.38c0 .67-.81 1-1.28.53L3 10H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h2l3.72-3.72C7.19 1.81 8 2.14 8 2.81zm7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06L11.44 8 9.47 9.97l1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06L13.56 8l1.97-1.97z"></path></svg>
+      Unsubscribe
+    </button>
+</form>
+  <p class="reason text-small text-muted">You’re receiving notifications because you modified the open/close state.</p>
+</div>
+
+  </div>
+
+  
+  <div class="discussion-sidebar-item lock-toggle">
+    <a href="https://github.com/hosokawa9360/07_CocosbanGame_js/issues/3#lock-confirmation" rel="facebox" class="lock-toggle-link">
+        <svg aria-hidden="true" class="octicon octicon-lock" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M4 13H3v-1h1v1zm8-6v7c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h1V4c0-2.2 1.8-4 4-4s4 1.8 4 4v2h1c.55 0 1 .45 1 1zM3.8 6h4.41V4c0-1.22-.98-2.2-2.2-2.2-1.22 0-2.2.98-2.2 2.2v2H3.8zM11 7H2v7h9V7zM4 8H3v1h1V8zm0 2H3v1h1v-1z"></path></svg>
+      <strong>Lock conversation</strong>
+    </a>
+
+    <div id="lock-confirmation" style="display:none">
+      <h2 class="facebox-header" data-facebox-id="facebox-header">Lock conversation on this issue</h2>
+
+      <p data-facebox-id="facebox-description">Locking the conversation means:</p>
+
+      <ul>
+          <li>Other users <strong>can’t add new comments</strong> to this issue.</li>
+            <li>
+              You and other collaborators
+              <a href="https://help.github.com/articles/what-are-the-different-access-permissions">with access</a>
+              to this repository <strong>can still leave comments</strong> that others can see.
+            </li>
+      </ul>
+
+      <p>You can always unlock this issue again in the future.</p>
+
+      <div class="facebox-footer">
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="https://github.com/hosokawa9360/07_CocosbanGame_js/issues/3/lock" data-form-nonce="9a18e08f370017694cb07e9d3ca1878da7c8aafe" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="m9i+rC8JZD8bCCcM9BBd7ghXJdD1XL6N30iDeSoSnZKbZ08Yzd+IsYoyxp3noRTOfE49Y/VJvMbOEE8m3/NQHA=="></div>
+          <button type="submit" class="btn btn-danger btn-block">
+            Lock conversation on this issue
+          </button>
+</form>      </div>
+    </div>
+  </div>
+
+
+</div>
+
+      </div>
+
+      <div class="discussion-timeline js-quote-selection-container ">
+
+        <div class="js-discussion js-socket-channel" data-channel="tenant:1:marked-as-read:issue:172877090">
+          
+
+  <div class="timeline-comment-wrapper js-comment-container">
+    <a href="https://github.com/hosokawa9360"><img alt="@hosokawa9360" class="timeline-comment-avatar" height="48" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/19336517(2)" width="48"></a>
+    
+
+<div id="issue-172877090" class="comment previewable-edit timeline-comment js-comment js-task-list-container
+                    
+                    owner-comment current-user  js-reorderable-task-lists reorderable-task-lists" data-body-version="94918e0bb6cb4b5d41de086f17aee6d9">
+
+  <div class="timeline-comment-header ">
+
+    <div class="timeline-comment-actions">
+        
+  <span class="reaction-popover-container dropdown js-socket-channel js-updatable-content js-reaction-popover-container js-comment-header-reaction-button js-menu-container" data-channel="tenant:1:reaction:issue:172877090" data-url="/hosokawa9360/07_CocosbanGame_js/reactions/issue/172877090/button">
+    <button class="btn-link timeline-comment-action tooltipped tooltipped-n js-menu-target" aria-label="Add your reaction">
+      <svg aria-hidden="true" class="octicon octicon-plus-small add-reaction-plus-icon" height="16" version="1.1" viewBox="0 0 7 16" width="7"><path d="M4 7V4H3v3H0v1h3v3h1V8h3V7H4z"></path></svg>
+      <svg aria-hidden="true" class="octicon octicon-smiley" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm4.81 12.81a6.72 6.72 0 0 1-2.17 1.45c-.83.36-1.72.53-2.64.53-.92 0-1.81-.17-2.64-.53-.81-.34-1.55-.83-2.17-1.45a6.773 6.773 0 0 1-1.45-2.17A6.59 6.59 0 0 1 1.21 8c0-.92.17-1.81.53-2.64.34-.81.83-1.55 1.45-2.17.62-.62 1.36-1.11 2.17-1.45A6.59 6.59 0 0 1 8 1.21c.92 0 1.81.17 2.64.53.81.34 1.55.83 2.17 1.45.62.62 1.11 1.36 1.45 2.17.36.83.53 1.72.53 2.64 0 .92-.17 1.81-.53 2.64-.34.81-.83 1.55-1.45 2.17zM4 6.8v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2H5.2C4.53 8 4 7.47 4 6.8zm5 0v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2h-.59C9.53 8 9 7.47 9 6.8zm4 3.2c-.72 1.88-2.91 3-5 3s-4.28-1.13-5-3c-.14-.39.23-1 .66-1h8.59c.41 0 .89.61.75 1z"></path></svg>
+    </button>
+    
+<div class="dropdown-menu-content anim-scale-in js-menu-content">
+  <div class="dropdown-menu dropdown-menu-sw add-reaction-popover js-add-reaction-popover">
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="https://github.com/hosokawa9360/07_CocosbanGame_js/reactions/update" class="reaction-popover-form js-pick-reaction" data-form-nonce="9a18e08f370017694cb07e9d3ca1878da7c8aafe" data-remote="true" data-type="json" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="zHWPvxdyGE2iBPtF2oZ3IxQ7BBth0UshWGaU7MPMll7W+0yGJnGNkh/XALHAPmrebxoRGw0j8hU4bPhXrRTH8w=="></div>
+      <p class="text-muted mx-3 my-2">
+        <span class="js-reaction-description">Pick your reaction</span>
+        <img alt="" class="loading-spinner" height="16" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/octocat-spinner-32.gif" width="16">
+      </p>
+
+      <div class="dropdown-divider"></div>
+
+      <div class="add-reactions-options mx-2 mb-1">
+        <input type="hidden" name="reaction[subject_id]" value="172877090">
+        <input type="hidden" name="reaction[subject_type]" value="Issue">
+
+          <button type="submit" class="btn-link add-reactions-options-item js-reaction-option-item" data-reaction-label="+1" name="reaction[content]" aria-label="React with thumbs up emoji" value="+1 react">
+            <g-emoji alias="+1" class="emoji" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png"><img class="emoji" title=":+1:" alt=":+1:" height="20" width="20" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/1f44d.png"></g-emoji>
+          </button>
+          <button type="submit" class="btn-link add-reactions-options-item js-reaction-option-item" data-reaction-label="-1" name="reaction[content]" aria-label="React with thumbs down emoji" value="-1 react">
+            <g-emoji alias="-1" class="emoji" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png"><img class="emoji" title=":-1:" alt=":-1:" height="20" width="20" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/1f44e.png"></g-emoji>
+          </button>
+          <button type="submit" class="btn-link add-reactions-options-item js-reaction-option-item" data-reaction-label="Laugh" name="reaction[content]" aria-label="React with laugh emoji" value="smile react">
+            <g-emoji alias="smile" class="emoji" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png"><img class="emoji" title=":smile:" alt=":smile:" height="20" width="20" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/1f604.png"></g-emoji>
+          </button>
+          <button type="submit" class="btn-link add-reactions-options-item js-reaction-option-item" data-reaction-label="Hooray" name="reaction[content]" aria-label="React with hooray emoji" value="tada react">
+            <g-emoji alias="tada" class="emoji" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f389.png"><img class="emoji" title=":tada:" alt=":tada:" height="20" width="20" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/1f389.png"></g-emoji>
+          </button>
+          <button type="submit" class="btn-link add-reactions-options-item js-reaction-option-item" data-reaction-label="Confused" name="reaction[content]" aria-label="React with confused emoji" value="thinking_face react">
+            <g-emoji alias="thinking_face" class="emoji" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f615.png"><img class="emoji" title=":thinking_face:" alt=":thinking_face:" height="20" width="20" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/1f615.png"></g-emoji>
+          </button>
+          <button type="submit" class="btn-link add-reactions-options-item js-reaction-option-item" data-reaction-label="Heart" name="reaction[content]" aria-label="React with heart emoji" value="heart react">
+            <g-emoji alias="heart" class="emoji" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2764.png"><img class="emoji" title=":heart:" alt=":heart:" height="20" width="20" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/2764.png"></g-emoji>
+          </button>
+      </div>
+</form>  </div>
+</div>
+
+  </span>
+
+            <button type="button" class="btn-link timeline-comment-action js-comment-edit-button tooltipped tooltipped-nw" aria-label="Edit comment">
+              <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"></path></svg>
+            </button>
+    </div>
+
+    <span class="timeline-comment-label">Owner</span>
+
+
+  <div class="timeline-comment-header-text">
+
+    <strong>
+      <a href="https://github.com/hosokawa9360" class="author">hosokawa9360</a> 
+    </strong>
+
+    commented
+
+      <a href="https://github.com/hosokawa9360/07_CocosbanGame_js/issues/3#issue-172877090" class="timestamp">
+        <relative-time datetime="2016-08-24T06:49:17Z" title="2016年8月24日 15:49 JST">3 hours ago</relative-time>
+      </a>
+
+  </div>
+</div>
+
+
+  <div class="edit-comment-hide">
+      <p class="comment-form-stale">
+        <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg> The content you are editing has changed. Please try again.
+      </p>
+    <div class="comment-body markdown-body markdown-format js-comment-body">
+        <p>パズルゲームは、面クリアタイプが一般的です。<br>
+面クリアタイプは、面がクリアされると、新しいパズル画面を生成することになります。<br>
+こういった場合、毎回画面に配置するオブジェクトの位置を配列で管理した方が便利です。</p>
+
+<pre><code>var level = [
+     [1,1,1,1,1,1,1],
+     [1,1,0,0,0,0,1],
+     [1,1,3,0,2,0,1],
+     [1,0,0,4,0,0,1],
+     [1,0,3,1,2,0,1],
+     [1,0,0,1,1,1,1],
+     [1,1,1,1,1,1,1]
+];
+</code></pre>
+
+<p>各番号の意味は次の通りです。</p>
+
+<ul>
+<li>0:空のタイル</li>
+<li>1:壁</li>
+<li>2:木箱を落す場所</li>
+<li>3:木箱</li>
+<li>4:プレイヤー</li>
+<li>5:落された木箱　（2+3）</li>
+<li>6:落されたプレイヤー(2+4)</li>
+</ul>
+    </div>
+  </div>
+
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="https://github.com/hosokawa9360/07_CocosbanGame_js/issues/3" class="js-comment-update" data-form-nonce="9a18e08f370017694cb07e9d3ca1878da7c8aafe" data-remote="" data-type="json" data-upload-policy-url="/upload/policies/assets" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="bY8e7nJbkVXQKXAg5jV3eKgoSDI9zo/4C7qIK9B+8/cNESwZ1O2A63qLL86khMXUkU3BZ7DUSJZPtRBPjJT5Ww=="></div>
+      <div class="js-suggester-container  js-previewable-comment-form previewable-comment-form write-selected" data-preview-url="/preview?comment=3&amp;markdown_unsupported=false&amp;repository=66430544&amp;subject=3&amp;subject_type=Issue">
+  <div class="comment-form-head tabnav">
+      <div class="js-toolbar toolbar-commenting">
+        <div class="toolbar-group">
+          <div class="toolbar-item dropdown js-menu-container">
+            <button type="button" class="js-menu-target menu-target tooltipped tooltipped-n" aria-label="Add header text" tabindex="-1">
+              <svg aria-hidden="true" class="octicon octicon-text-size" height="16" version="1.1" viewBox="0 0 18 16" width="18"><path d="M13.62 9.08L12.1 3.66h-.06l-1.5 5.42h3.08zM5.7 10.13S4.68 6.52 4.53 6.02h-.08l-1.13 4.11H5.7zM17.31 14h-2.25l-.95-3.25h-4.07L9.09 14H6.84l-.69-2.33H2.87L2.17 14H0l3.3-9.59h2.5l2.17 6.34L10.86 2h2.52l3.94 12h-.01z"></path></svg>
+              <span class="dropdown-caret"></span>
+            </button>
+
+            <div class="dropdown-menu-content js-menu-content">
+              <ul class="dropdown-menu dropdown-menu-s">
+                <button type="button" class="js-toolbar-item dropdown-item dropdown-header1" data-prefix="# " data-ga-click="Markdown Toolbar, click, header1">
+                  Header
+                </button>
+                <button type="button" class="js-toolbar-item dropdown-item dropdown-header2" data-prefix="## " data-ga-click="Markdown Toolbar, click, header2">
+                  Header
+                </button>
+                <button type="button" class="js-toolbar-item dropdown-item dropdown-header3" data-prefix="### " data-ga-click="Markdown Toolbar, click, header3">
+                  Header
+                </button>
+              </ul>
+            </div>
+          </div>
+
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Add bold text &lt;ctrl+b&gt;" tabindex="-1" data-prefix="**" data-suffix="**" data-toolbar-hotkey="b" data-ga-click="Markdown Toolbar, click, bold" data-trim-first="">
+            <svg aria-hidden="true" class="octicon octicon-bold" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path d="M1 2h3.83c2.48 0 4.3.75 4.3 2.95 0 1.14-.63 2.23-1.67 2.61v.06c1.33.3 2.3 1.23 2.3 2.86 0 2.39-1.97 3.52-4.61 3.52H1V2zm3.66 4.95c1.67 0 2.38-.66 2.38-1.69 0-1.17-.78-1.61-2.34-1.61H3.13v3.3h1.53zm.27 5.39c1.77 0 2.75-.64 2.75-1.98 0-1.27-.95-1.81-2.75-1.81h-1.8v3.8h1.8v-.01z"></path></svg>
+          </button>
+
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Add italic text &lt;ctrl+i&gt;" tabindex="-1" data-prefix="_" data-suffix="_" data-toolbar-hotkey="i" data-ga-click="Markdown Toolbar, click, italic" data-trim-first="">
+            <svg aria-hidden="true" class="octicon octicon-italic" height="16" version="1.1" viewBox="0 0 6 16" width="6"><path d="M2.81 5h1.98L3 14H1l1.81-9zm.36-2.7c0-.7.58-1.3 1.33-1.3.56 0 1.13.38 1.13 1.03 0 .75-.59 1.3-1.33 1.3-.58 0-1.13-.38-1.13-1.03z"></path></svg>
+          </button>
+        </div>
+
+        <div class="toolbar-group">
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Insert a quote" tabindex="-1" data-prefix="&gt; " data-multiline="true" data-ga-click="Markdown Toolbar, click, quote" data-surround-with-newlines="">
+            <svg aria-hidden="true" class="octicon octicon-quote" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M6.16 3.5C3.73 5.06 2.55 6.67 2.55 9.36c.16-.05.3-.05.44-.05 1.27 0 2.5.86 2.5 2.41 0 1.61-1.03 2.61-2.5 2.61-1.9 0-2.99-1.52-2.99-4.25 0-3.8 1.75-6.53 5.02-8.42L6.16 3.5zm7 0c-2.43 1.56-3.61 3.17-3.61 5.86.16-.05.3-.05.44-.05 1.27 0 2.5.86 2.5 2.41 0 1.61-1.03 2.61-2.5 2.61-1.89 0-2.98-1.52-2.98-4.25 0-3.8 1.75-6.53 5.02-8.42l1.14 1.84h-.01z"></path></svg>
+          </button>
+
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Insert code" tabindex="-1" data-prefix="`" data-suffix="`" data-block-prefix="```" data-block-suffix="```" data-ga-click="Markdown Toolbar, click, code">
+            <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"></path></svg>
+          </button>
+
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Add a link &lt;ctrl+k&gt;" tabindex="-1" data-prefix="[" data-suffix="](url)" data-replace-next="url" data-toolbar-hotkey="k" data-scan-for="https?://" data-ga-click="Markdown Toolbar, click, link">
+            <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg>
+          </button>
+        </div>
+
+        <div class="toolbar-group">
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Add a bulleted list" tabindex="-1" data-multiline="true" data-prefix="- " data-ga-click="Markdown Toolbar, click, unordered list" data-surround-with-newlines="">
+            <svg aria-hidden="true" class="octicon octicon-list-unordered" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M2 13c0 .59 0 1-.59 1H.59C0 14 0 13.59 0 13c0-.59 0-1 .59-1h.81c.59 0 .59.41.59 1H2zm2.59-9h6.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1H4.59C4 2 4 2.41 4 3c0 .59 0 1 .59 1zM1.41 7H.59C0 7 0 7.41 0 8c0 .59 0 1 .59 1h.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1h.01zm0-5H.59C0 2 0 2.41 0 3c0 .59 0 1 .59 1h.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1h.01zm10 5H4.59C4 7 4 7.41 4 8c0 .59 0 1 .59 1h6.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1h.01zm0 5H4.59C4 12 4 12.41 4 13c0 .59 0 1 .59 1h6.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1h.01z"></path></svg>
+          </button>
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Add a numbered list" tabindex="-1" data-prefix="1. " data-multiline="true" data-ga-click="Markdown Toolbar, click, ordered list" data-ordered-list="">
+            <svg aria-hidden="true" class="octicon octicon-list-ordered" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 13c0 .59 0 1-.59 1H4.59C4 14 4 13.59 4 13c0-.59 0-1 .59-1h6.81c.59 0 .59.41.59 1H12zM4.59 4h6.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1H4.59C4 2 4 2.41 4 3c0 .59 0 1 .59 1zm6.81 3H4.59C4 7 4 7.41 4 8c0 .59 0 1 .59 1h6.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1zM2 1h-.72c-.3.19-.58.25-1.03.34V2H1v2.14H.16V5H3v-.86H2V1zm.25 8.13c-.17 0-.45.03-.66.06.53-.56 1.14-1.25 1.14-1.89C2.71 6.52 2.17 6 1.37 6c-.59 0-.97.2-1.38.64l.58.58c.19-.19.38-.38.64-.38.28 0 .48.16.48.52 0 .53-.77 1.2-1.7 2.06V10h3l-.09-.88h-.66l.01.01zm-.08 3.78v-.03c.44-.19.64-.47.64-.86 0-.7-.56-1.11-1.44-1.11-.48 0-.89.19-1.28.52l.55.64c.25-.2.44-.31.69-.31.27 0 .42.13.42.36 0 .27-.2.44-.86.44v.75c.83 0 .98.17.98.47 0 .25-.23.38-.58.38-.28 0-.56-.14-.81-.38l-.48.66c.3.36.77.56 1.41.56.83 0 1.53-.41 1.53-1.16 0-.5-.31-.81-.77-.94v.01z"></path></svg>
+          </button>
+
+            <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Add a task list" tabindex="-1" data-prefix="- [ ] " data-toolbar-hotkey="L" data-multiline="" data-ga-click="Markdown Toolbar, click, task list" data-surround-with-newlines="">
+              <svg aria-hidden="true" class="octicon octicon-tasklist" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15.41 9H7.59C7 9 7 8.59 7 8c0-.59 0-1 .59-1h7.81c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM9.59 4C9 4 9 3.59 9 3c0-.59 0-1 .59-1h5.81c.59 0 .59.41.59 1 0 .59 0 1-.59 1H9.59zM0 3.91l1.41-1.3L3 4.2 7.09 0 8.5 1.41 3 6.91l-3-3zM7.59 12h7.81c.59 0 .59.41.59 1 0 .59 0 1-.59 1H7.59C7 14 7 13.59 7 13c0-.59 0-1 .59-1z"></path></svg>
+            </button>
+        </div>
+
+          <div class="toolbar-group">
+
+              <div class="toolbar-item select-menu select-menu-modal-right js-menu-container js-select-menu js-load-contents js-saved-reply-container" data-contents-url="/settings/replies">
+                <button type="button" class="js-menu-target menu-target tooltipped tooltipped-nw" aria-label="Insert a saved reply" tabindex="-1" data-ga-click="Markdown Toolbar, click, saved reply">
+                  <svg aria-hidden="true" class="octicon octicon-reply" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M6 3.5c3.92.44 8 3.125 8 10-2.312-5.062-4.75-6-8-6V11L.5 5.5 6 0v3.5z"></path></svg>
+                  <span class="dropdown-caret"></span>
+                </button>
+
+                <div class="select-menu-modal-holder js-menu-content js-navigation-container" aria-hidden="true">
+                  <div class="select-menu-modal">
+                    <div class="select-menu-header">
+                      <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+                      <span class="select-menu-title">Select a saved reply</span>
+                    </div>
+                    <div class="js-select-menu-deferred-content"></div>
+                    <div class="select-menu-loading-overlay anim-pulse">
+                      <svg aria-hidden="true" class="octicon octicon-octoface" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-nw" aria-label="Directly mention a user or team" tabindex="-1" data-prefix="@" data-prefix-space="" data-ga-click="Markdown Toolbar, click, mention">
+                <svg aria-hidden="true" class="octicon octicon-mention" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M6.58 15c1.25 0 2.52-.31 3.56-.94l-.42-.94c-.84.52-1.89.83-3.03.83-3.23 0-5.64-2.08-5.64-5.72 0-4.37 3.23-7.18 6.58-7.18 3.45 0 5.22 2.19 5.22 5.2 0 2.39-1.34 3.86-2.5 3.86-1.05 0-1.36-.73-1.05-2.19l.73-3.75H8.98l-.11.72c-.41-.63-.94-.83-1.56-.83-2.19 0-3.66 2.39-3.66 4.38 0 1.67.94 2.61 2.3 2.61.84 0 1.67-.53 2.3-1.25.11.94.94 1.45 1.98 1.45 1.67 0 3.77-1.67 3.77-5C14 2.61 11.59 0 7.83 0 3.66 0 0 3.33 0 8.33 0 12.71 2.92 15 6.58 15zm-.31-5c-.73 0-1.36-.52-1.36-1.67 0-1.45.94-3.22 2.41-3.22.52 0 .84.2 1.25.83l-.52 3.02c-.63.73-1.25 1.05-1.78 1.05V10z"></path></svg>
+              </button>
+
+              <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-nw" aria-label="Reference an issue or pull request" tabindex="-1" data-prefix="#" data-prefix-space="" data-ga-click="Markdown Toolbar, click, reference">
+                <svg aria-hidden="true" class="octicon octicon-bookmark" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path d="M9 0H1C.27 0 0 .27 0 1v15l5-3.09L10 16V1c0-.73-.27-1-1-1zm-.78 4.25L6.36 5.61l.72 2.16c.06.22-.02.28-.2.17L5 6.6 3.12 7.94c-.19.11-.25.05-.2-.17l.72-2.16-1.86-1.36c-.17-.16-.14-.23.09-.23l2.3-.03.7-2.16h.25l.7 2.16 2.3.03c.23 0 .27.08.09.23h.01z"></path></svg>
+              </button>
+          </div>
+      </div>
+      <nav class="tabnav-tabs" role="tablist">
+        <button type="button" class="btn-link tabnav-tab write-tab js-write-tab selected " role="tab" aria-selected="true">Write</button>
+        <button type="button" class="btn-link tabnav-tab preview-tab js-preview-tab " role="tab">Preview</button>
+      </nav>
+  </div>
+
+    <p class="comment-form-stale">
+      <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg> The content you are editing has changed. Please try again.
+    </p>
+
+  <div class="comment-form-error js-comment-form-error" style="display:none">    There was an error creating your Issue.
+</div>
+  <div class="write-content js-write-bucket js-uploadable-container js-upload-markdown-image is-default upload-enabled" data-upload-policy-url="/upload/policies/assets" data-upload-repository-id="66430544">
+      <input type="hidden" name="context" value="">
+
+    <input type="hidden" name="saved_reply_id" class="js-saved-reply-id js-resettable-field" value="" data-reset-value="">
+
+    <textarea name="issue[body]" tabindex="1" id="issue-172877090-body" placeholder="Leave a comment" aria-label="Comment body" class="form-control input-contrast comment-form-textarea js-comment-field js-improved-comment-field js-task-list-field js-quick-submit js-size-to-fit js-suggester-field js-quote-selection-target js-session-resumable">パズルゲームは、面クリアタイプが一般的です。
+面クリアタイプは、面がクリアされると、新しいパズル画面を生成することになります。
+こういった場合、毎回画面に配置するオブジェクトの位置を配列で管理した方が便利です。
+```
+var level = [
+     [1,1,1,1,1,1,1],
+     [1,1,0,0,0,0,1],
+     [1,1,3,0,2,0,1],
+     [1,0,0,4,0,0,1],
+     [1,0,3,1,2,0,1],
+     [1,0,0,1,1,1,1],
+     [1,1,1,1,1,1,1]
+];
+```
+各番号の意味は次の通りです。
+- 0:空のタイル
+- 1:壁
+- 2:木箱を落す場所
+- 3:木箱
+- 4:プレイヤー
+- 5:落された木箱　（2+3）
+- 6:落されたプレイヤー(2+4)</textarea>
+
+          <p class="drag-and-drop">
+    <span class="default">
+        Attach files by dragging &amp; dropping,
+        <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser" aria-label="Attach files to your comment">
+        <button class="btn-link manual-file-chooser-text" type="button" aria-hidden="true">selecting them</button>, or pasting
+        from the clipboard.
+    </span>
+    <span class="loading">
+      <img alt="" height="16" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/octocat-spinner-32.gif" width="16"> Uploading your files…
+    </span>
+    <span class="error bad-file">
+      Unfortunately, we don’t support that file type.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again</button> with a
+        PNG, GIF, JPG, DOCX, PPTX, XLSX, TXT, PDF, or ZIP.
+      </span>
+    </span>
+    <span class="error bad-permissions">
+      Attaching documents requires write permission to this repository.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again</button> with a PNG, GIF, or JPG.
+      </span>
+    </span>
+    <span class="error repository-required">
+      Unfortunately, we don’t support that file type.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again</button> with a PNG, GIF, or JPG.
+      </span>
+    </span>
+    <span class="error too-big">
+      Yowza, that’s a big file.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again</button> with a file smaller than 10MB.
+      </span>
+    </span>
+    <span class="error empty">
+      This file is empty.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again</button> with a file that’s not empty.
+      </span>
+    </span>
+    <span class="error hidden-file">
+      This file is hidden.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again</button> with another file.
+      </span>
+    </span>
+    <span class="error failed-request">
+      Something went really wrong, and we can’t process that file.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again.</button>
+      </span>
+    </span>
+  </p>
+
+
+    <div class="suggester-container">
+      <div class="suggester js-suggester js-navigation-container" data-url="/hosokawa9360/07_CocosbanGame_js/suggestions/issue/172877090" data-log-mention-url="/hosokawa9360/07_CocosbanGame_js/suggestions/log_mention?repository_id=66430544" data-log-mention-csrf-token="bHJg7FeiLbUaHQgAuh0hq67KUe0+buZnjZzbMT+nRqrORn7ELY9xbfo1qy+p8spR4QJr0SOempX+jLd27jG+JQ==">
+      </div>
+    </div>
+  </div>
+
+  <div class="preview-content">
+    <div class="comment">
+  <div class="comment-body markdown-body js-preview-body">
+    <p>Nothing to preview</p>
+  </div>
+</div>
+
+  </div>
+
+  <div class="toolbar-help">
+      <a class="tabnav-extra" href="https://guides.github.com/features/mastering-markdown/" target="_blank" data-ga-click="Markdown Toolbar, click, help">
+        <svg aria-hidden="true" class="octicon octicon-markdown" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M14.85 3H1.15C.52 3 0 3.52 0 4.15v7.69C0 12.48.52 13 1.15 13h13.69c.64 0 1.15-.52 1.15-1.15v-7.7C16 3.52 15.48 3 14.85 3zM9 11H7V8L5.5 9.92 4 8v3H2V5h2l1.5 2L7 5h2v6zm2.99.5L9.5 8H11V5h2v3h1.5l-2.51 3.5z"></path></svg>
+        Styling with Markdown is supported
+      </a>
+  </div>
+
+    <div class="form-actions">
+      <button class="btn btn-primary" type="submit" tabindex="1" data-disable-with="">Update comment</button>
+      <button class="btn btn-danger js-comment-cancel-button" type="button" tabindex="1" data-confirm-text="Are you sure you want to discard your unsaved changes?">
+        Cancel
+      </button>
+    </div>
+
+  <div class="comment-form-error comment-form-bottom js-comment-update-error"></div>
+</div>
+
+</form>
+    
+
+<div class="comment-reactions  js-reactions-container js-socket-channel js-updatable-content" data-channel="tenant:1:reaction:issue:172877090" data-url="/hosokawa9360/07_CocosbanGame_js/reactions/issue/172877090">
+</div>
+
+</div>
+
+  </div>
+  <div class="timeline-comment-wrapper js-comment-container">
+    <a href="https://github.com/hosokawa9360"><img alt="@hosokawa9360" class="timeline-comment-avatar" height="48" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/19336517(2)" width="48"></a>
+    
+
+<div id="issuecomment-241974656" class="comment previewable-edit timeline-comment js-comment js-task-list-container
+                    
+                    owner-comment current-user  js-reorderable-task-lists reorderable-task-lists" data-body-version="8a48c34e754125b69f30884ce2bd9ac9">
+
+  <div class="timeline-comment-header ">
+
+    <div class="timeline-comment-actions">
+        
+  <span class="reaction-popover-container dropdown js-socket-channel js-updatable-content js-reaction-popover-container js-comment-header-reaction-button js-menu-container" data-channel="tenant:1:reaction:issue-comment:241974656" data-url="/hosokawa9360/07_CocosbanGame_js/reactions/issue-comment/241974656/button">
+    <button class="btn-link timeline-comment-action tooltipped tooltipped-n js-menu-target" aria-label="Add your reaction">
+      <svg aria-hidden="true" class="octicon octicon-plus-small add-reaction-plus-icon" height="16" version="1.1" viewBox="0 0 7 16" width="7"><path d="M4 7V4H3v3H0v1h3v3h1V8h3V7H4z"></path></svg>
+      <svg aria-hidden="true" class="octicon octicon-smiley" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm4.81 12.81a6.72 6.72 0 0 1-2.17 1.45c-.83.36-1.72.53-2.64.53-.92 0-1.81-.17-2.64-.53-.81-.34-1.55-.83-2.17-1.45a6.773 6.773 0 0 1-1.45-2.17A6.59 6.59 0 0 1 1.21 8c0-.92.17-1.81.53-2.64.34-.81.83-1.55 1.45-2.17.62-.62 1.36-1.11 2.17-1.45A6.59 6.59 0 0 1 8 1.21c.92 0 1.81.17 2.64.53.81.34 1.55.83 2.17 1.45.62.62 1.11 1.36 1.45 2.17.36.83.53 1.72.53 2.64 0 .92-.17 1.81-.53 2.64-.34.81-.83 1.55-1.45 2.17zM4 6.8v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2H5.2C4.53 8 4 7.47 4 6.8zm5 0v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2h-.59C9.53 8 9 7.47 9 6.8zm4 3.2c-.72 1.88-2.91 3-5 3s-4.28-1.13-5-3c-.14-.39.23-1 .66-1h8.59c.41 0 .89.61.75 1z"></path></svg>
+    </button>
+    
+<div class="dropdown-menu-content anim-scale-in js-menu-content">
+  <div class="dropdown-menu dropdown-menu-sw add-reaction-popover js-add-reaction-popover">
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="https://github.com/hosokawa9360/07_CocosbanGame_js/reactions/update" class="reaction-popover-form js-pick-reaction" data-form-nonce="9a18e08f370017694cb07e9d3ca1878da7c8aafe" data-remote="true" data-type="json" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="gkjb+jjQSXrgDq+MMZ55nAschDvxcM1n4MTCusswLjlzPFwQE+xNigm5YJGU4hb1W0vZkwTtE6ttP8YIGXNM+g=="></div>
+      <p class="text-muted mx-3 my-2">
+        <span class="js-reaction-description">Pick your reaction</span>
+        <img alt="" class="loading-spinner" height="16" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/octocat-spinner-32.gif" width="16">
+      </p>
+
+      <div class="dropdown-divider"></div>
+
+      <div class="add-reactions-options mx-2 mb-1">
+        <input type="hidden" name="reaction[subject_id]" value="241974656">
+        <input type="hidden" name="reaction[subject_type]" value="IssueComment">
+
+          <button type="submit" class="btn-link add-reactions-options-item js-reaction-option-item" data-reaction-label="+1" name="reaction[content]" aria-label="React with thumbs up emoji" value="+1 react">
+            <g-emoji alias="+1" class="emoji" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png"><img class="emoji" title=":+1:" alt=":+1:" height="20" width="20" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/1f44d.png"></g-emoji>
+          </button>
+          <button type="submit" class="btn-link add-reactions-options-item js-reaction-option-item" data-reaction-label="-1" name="reaction[content]" aria-label="React with thumbs down emoji" value="-1 react">
+            <g-emoji alias="-1" class="emoji" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png"><img class="emoji" title=":-1:" alt=":-1:" height="20" width="20" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/1f44e.png"></g-emoji>
+          </button>
+          <button type="submit" class="btn-link add-reactions-options-item js-reaction-option-item" data-reaction-label="Laugh" name="reaction[content]" aria-label="React with laugh emoji" value="smile react">
+            <g-emoji alias="smile" class="emoji" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png"><img class="emoji" title=":smile:" alt=":smile:" height="20" width="20" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/1f604.png"></g-emoji>
+          </button>
+          <button type="submit" class="btn-link add-reactions-options-item js-reaction-option-item" data-reaction-label="Hooray" name="reaction[content]" aria-label="React with hooray emoji" value="tada react">
+            <g-emoji alias="tada" class="emoji" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f389.png"><img class="emoji" title=":tada:" alt=":tada:" height="20" width="20" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/1f389.png"></g-emoji>
+          </button>
+          <button type="submit" class="btn-link add-reactions-options-item js-reaction-option-item" data-reaction-label="Confused" name="reaction[content]" aria-label="React with confused emoji" value="thinking_face react">
+            <g-emoji alias="thinking_face" class="emoji" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f615.png"><img class="emoji" title=":thinking_face:" alt=":thinking_face:" height="20" width="20" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/1f615.png"></g-emoji>
+          </button>
+          <button type="submit" class="btn-link add-reactions-options-item js-reaction-option-item" data-reaction-label="Heart" name="reaction[content]" aria-label="React with heart emoji" value="heart react">
+            <g-emoji alias="heart" class="emoji" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2764.png"><img class="emoji" title=":heart:" alt=":heart:" height="20" width="20" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/2764.png"></g-emoji>
+          </button>
+      </div>
+</form>  </div>
+</div>
+
+  </span>
+
+            <button type="button" class="btn-link timeline-comment-action js-comment-edit-button tooltipped tooltipped-nw" aria-label="Edit comment">
+              <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"></path></svg>
+            </button>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="https://github.com/hosokawa9360/07_CocosbanGame_js/issue_comments/241974656" class="inline-form js-comment-delete" data-form-nonce="9a18e08f370017694cb07e9d3ca1878da7c8aafe" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="delete"><input name="authenticity_token" type="hidden" value="1ZAdCj4KFg9JE8OD4SkA2oWPPj37Qp1eR4jB65yuRT91aDyznSHND7cHdXr2qgkaPf3DJGR6n/pqhGP4Jhj9PA=="></div>
+            <button type="submit" class="btn-link timeline-comment-action delete-button tooltipped tooltipped-nw" aria-label="Delete comment" data-confirm="Are you sure you want to delete this?">
+              <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+            </button>
+</form>    </div>
+
+    <span class="timeline-comment-label">Owner</span>
+
+
+  <div class="timeline-comment-header-text">
+
+    <strong>
+      <a href="https://github.com/hosokawa9360" class="author">hosokawa9360</a> 
+    </strong>
+
+    commented
+
+      <a href="https://github.com/hosokawa9360/07_CocosbanGame_js/issues/3#issuecomment-241974656" class="timestamp">
+        <relative-time datetime="2016-08-24T07:00:14Z" title="2016年8月24日 16:00 JST">3 hours ago</relative-time>
+      </a>
+
+  </div>
+</div>
+
+
+  <div class="edit-comment-hide">
+      <p class="comment-form-stale">
+        <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg> The content you are editing has changed. Please try again.
+      </p>
+    <div class="comment-body markdown-body markdown-format js-comment-body">
+        <p>for文で　配列level をスキャンして、player(4または6）なら、配置する</p>
+
+<pre><code>   for(i=0;i&lt;7;i++){ //行
+             for(j=0;j&lt;7;j++){//列
+                switch(level[i][j]){
+                case 4:
+                case 6:
+                    playerSprite = cc.Sprite.create(cache.getSpriteFrame("player.png"));
+                    playerSprite.setPosition(165+25*j,185-25*i);
+                    playerSprite.setScale(5);
+                    this.addChild(playerSprite);
+                    playerPosition = {x:j,y:i};
+      }
+}
+</code></pre>
+
+<p>このとき、現在のプレイヤーの<strong>マップ上の位置</strong>を管理するため、playerPosition に　i,jを格納しています。<br>
+  playerPosition = {<br>
+　　　　x　:　j,<br>
+　　　　y　:　i<br>
+};<br>
+playPositionはｘ、ｙというプロパティをもっていて　その値の初期値がｊ , i  であるという意味になります。</p>
+    </div>
+  </div>
+
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="https://github.com/hosokawa9360/07_CocosbanGame_js/issue_comments/241974656" class="js-comment-update" data-form-nonce="9a18e08f370017694cb07e9d3ca1878da7c8aafe" data-remote="" data-type="json" data-upload-policy-url="/upload/policies/assets" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="EKrRN8izY+hQO1mqFXn/jNdl7PLLlhuj4Kr6pFULVR7DNe+LNP2WiwgZGHwJNc/1uvoU8Ivm5HQudNG4ICP+iQ=="></div>
+      <div class="js-suggester-container  js-previewable-comment-form previewable-comment-form write-selected" data-preview-url="/preview?comment=241974656&amp;markdown_unsupported=false&amp;repository=66430544&amp;subject=3&amp;subject_type=Issue">
+  <div class="comment-form-head tabnav">
+      <div class="js-toolbar toolbar-commenting">
+        <div class="toolbar-group">
+          <div class="toolbar-item dropdown js-menu-container">
+            <button type="button" class="js-menu-target menu-target tooltipped tooltipped-n" aria-label="Add header text" tabindex="-1">
+              <svg aria-hidden="true" class="octicon octicon-text-size" height="16" version="1.1" viewBox="0 0 18 16" width="18"><path d="M13.62 9.08L12.1 3.66h-.06l-1.5 5.42h3.08zM5.7 10.13S4.68 6.52 4.53 6.02h-.08l-1.13 4.11H5.7zM17.31 14h-2.25l-.95-3.25h-4.07L9.09 14H6.84l-.69-2.33H2.87L2.17 14H0l3.3-9.59h2.5l2.17 6.34L10.86 2h2.52l3.94 12h-.01z"></path></svg>
+              <span class="dropdown-caret"></span>
+            </button>
+
+            <div class="dropdown-menu-content js-menu-content">
+              <ul class="dropdown-menu dropdown-menu-s">
+                <button type="button" class="js-toolbar-item dropdown-item dropdown-header1" data-prefix="# " data-ga-click="Markdown Toolbar, click, header1">
+                  Header
+                </button>
+                <button type="button" class="js-toolbar-item dropdown-item dropdown-header2" data-prefix="## " data-ga-click="Markdown Toolbar, click, header2">
+                  Header
+                </button>
+                <button type="button" class="js-toolbar-item dropdown-item dropdown-header3" data-prefix="### " data-ga-click="Markdown Toolbar, click, header3">
+                  Header
+                </button>
+              </ul>
+            </div>
+          </div>
+
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Add bold text &lt;ctrl+b&gt;" tabindex="-1" data-prefix="**" data-suffix="**" data-toolbar-hotkey="b" data-ga-click="Markdown Toolbar, click, bold" data-trim-first="">
+            <svg aria-hidden="true" class="octicon octicon-bold" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path d="M1 2h3.83c2.48 0 4.3.75 4.3 2.95 0 1.14-.63 2.23-1.67 2.61v.06c1.33.3 2.3 1.23 2.3 2.86 0 2.39-1.97 3.52-4.61 3.52H1V2zm3.66 4.95c1.67 0 2.38-.66 2.38-1.69 0-1.17-.78-1.61-2.34-1.61H3.13v3.3h1.53zm.27 5.39c1.77 0 2.75-.64 2.75-1.98 0-1.27-.95-1.81-2.75-1.81h-1.8v3.8h1.8v-.01z"></path></svg>
+          </button>
+
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Add italic text &lt;ctrl+i&gt;" tabindex="-1" data-prefix="_" data-suffix="_" data-toolbar-hotkey="i" data-ga-click="Markdown Toolbar, click, italic" data-trim-first="">
+            <svg aria-hidden="true" class="octicon octicon-italic" height="16" version="1.1" viewBox="0 0 6 16" width="6"><path d="M2.81 5h1.98L3 14H1l1.81-9zm.36-2.7c0-.7.58-1.3 1.33-1.3.56 0 1.13.38 1.13 1.03 0 .75-.59 1.3-1.33 1.3-.58 0-1.13-.38-1.13-1.03z"></path></svg>
+          </button>
+        </div>
+
+        <div class="toolbar-group">
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Insert a quote" tabindex="-1" data-prefix="&gt; " data-multiline="true" data-ga-click="Markdown Toolbar, click, quote" data-surround-with-newlines="">
+            <svg aria-hidden="true" class="octicon octicon-quote" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M6.16 3.5C3.73 5.06 2.55 6.67 2.55 9.36c.16-.05.3-.05.44-.05 1.27 0 2.5.86 2.5 2.41 0 1.61-1.03 2.61-2.5 2.61-1.9 0-2.99-1.52-2.99-4.25 0-3.8 1.75-6.53 5.02-8.42L6.16 3.5zm7 0c-2.43 1.56-3.61 3.17-3.61 5.86.16-.05.3-.05.44-.05 1.27 0 2.5.86 2.5 2.41 0 1.61-1.03 2.61-2.5 2.61-1.89 0-2.98-1.52-2.98-4.25 0-3.8 1.75-6.53 5.02-8.42l1.14 1.84h-.01z"></path></svg>
+          </button>
+
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Insert code" tabindex="-1" data-prefix="`" data-suffix="`" data-block-prefix="```" data-block-suffix="```" data-ga-click="Markdown Toolbar, click, code">
+            <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"></path></svg>
+          </button>
+
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Add a link &lt;ctrl+k&gt;" tabindex="-1" data-prefix="[" data-suffix="](url)" data-replace-next="url" data-toolbar-hotkey="k" data-scan-for="https?://" data-ga-click="Markdown Toolbar, click, link">
+            <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg>
+          </button>
+        </div>
+
+        <div class="toolbar-group">
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Add a bulleted list" tabindex="-1" data-multiline="true" data-prefix="- " data-ga-click="Markdown Toolbar, click, unordered list" data-surround-with-newlines="">
+            <svg aria-hidden="true" class="octicon octicon-list-unordered" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M2 13c0 .59 0 1-.59 1H.59C0 14 0 13.59 0 13c0-.59 0-1 .59-1h.81c.59 0 .59.41.59 1H2zm2.59-9h6.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1H4.59C4 2 4 2.41 4 3c0 .59 0 1 .59 1zM1.41 7H.59C0 7 0 7.41 0 8c0 .59 0 1 .59 1h.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1h.01zm0-5H.59C0 2 0 2.41 0 3c0 .59 0 1 .59 1h.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1h.01zm10 5H4.59C4 7 4 7.41 4 8c0 .59 0 1 .59 1h6.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1h.01zm0 5H4.59C4 12 4 12.41 4 13c0 .59 0 1 .59 1h6.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1h.01z"></path></svg>
+          </button>
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Add a numbered list" tabindex="-1" data-prefix="1. " data-multiline="true" data-ga-click="Markdown Toolbar, click, ordered list" data-ordered-list="">
+            <svg aria-hidden="true" class="octicon octicon-list-ordered" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 13c0 .59 0 1-.59 1H4.59C4 14 4 13.59 4 13c0-.59 0-1 .59-1h6.81c.59 0 .59.41.59 1H12zM4.59 4h6.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1H4.59C4 2 4 2.41 4 3c0 .59 0 1 .59 1zm6.81 3H4.59C4 7 4 7.41 4 8c0 .59 0 1 .59 1h6.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1zM2 1h-.72c-.3.19-.58.25-1.03.34V2H1v2.14H.16V5H3v-.86H2V1zm.25 8.13c-.17 0-.45.03-.66.06.53-.56 1.14-1.25 1.14-1.89C2.71 6.52 2.17 6 1.37 6c-.59 0-.97.2-1.38.64l.58.58c.19-.19.38-.38.64-.38.28 0 .48.16.48.52 0 .53-.77 1.2-1.7 2.06V10h3l-.09-.88h-.66l.01.01zm-.08 3.78v-.03c.44-.19.64-.47.64-.86 0-.7-.56-1.11-1.44-1.11-.48 0-.89.19-1.28.52l.55.64c.25-.2.44-.31.69-.31.27 0 .42.13.42.36 0 .27-.2.44-.86.44v.75c.83 0 .98.17.98.47 0 .25-.23.38-.58.38-.28 0-.56-.14-.81-.38l-.48.66c.3.36.77.56 1.41.56.83 0 1.53-.41 1.53-1.16 0-.5-.31-.81-.77-.94v.01z"></path></svg>
+          </button>
+
+            <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Add a task list" tabindex="-1" data-prefix="- [ ] " data-toolbar-hotkey="L" data-multiline="" data-ga-click="Markdown Toolbar, click, task list" data-surround-with-newlines="">
+              <svg aria-hidden="true" class="octicon octicon-tasklist" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15.41 9H7.59C7 9 7 8.59 7 8c0-.59 0-1 .59-1h7.81c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM9.59 4C9 4 9 3.59 9 3c0-.59 0-1 .59-1h5.81c.59 0 .59.41.59 1 0 .59 0 1-.59 1H9.59zM0 3.91l1.41-1.3L3 4.2 7.09 0 8.5 1.41 3 6.91l-3-3zM7.59 12h7.81c.59 0 .59.41.59 1 0 .59 0 1-.59 1H7.59C7 14 7 13.59 7 13c0-.59 0-1 .59-1z"></path></svg>
+            </button>
+        </div>
+
+          <div class="toolbar-group">
+
+              <div class="toolbar-item select-menu select-menu-modal-right js-menu-container js-select-menu js-load-contents js-saved-reply-container" data-contents-url="/settings/replies">
+                <button type="button" class="js-menu-target menu-target tooltipped tooltipped-nw" aria-label="Insert a saved reply" tabindex="-1" data-ga-click="Markdown Toolbar, click, saved reply">
+                  <svg aria-hidden="true" class="octicon octicon-reply" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M6 3.5c3.92.44 8 3.125 8 10-2.312-5.062-4.75-6-8-6V11L.5 5.5 6 0v3.5z"></path></svg>
+                  <span class="dropdown-caret"></span>
+                </button>
+
+                <div class="select-menu-modal-holder js-menu-content js-navigation-container" aria-hidden="true">
+                  <div class="select-menu-modal">
+                    <div class="select-menu-header">
+                      <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+                      <span class="select-menu-title">Select a saved reply</span>
+                    </div>
+                    <div class="js-select-menu-deferred-content"></div>
+                    <div class="select-menu-loading-overlay anim-pulse">
+                      <svg aria-hidden="true" class="octicon octicon-octoface" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-nw" aria-label="Directly mention a user or team" tabindex="-1" data-prefix="@" data-prefix-space="" data-ga-click="Markdown Toolbar, click, mention">
+                <svg aria-hidden="true" class="octicon octicon-mention" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M6.58 15c1.25 0 2.52-.31 3.56-.94l-.42-.94c-.84.52-1.89.83-3.03.83-3.23 0-5.64-2.08-5.64-5.72 0-4.37 3.23-7.18 6.58-7.18 3.45 0 5.22 2.19 5.22 5.2 0 2.39-1.34 3.86-2.5 3.86-1.05 0-1.36-.73-1.05-2.19l.73-3.75H8.98l-.11.72c-.41-.63-.94-.83-1.56-.83-2.19 0-3.66 2.39-3.66 4.38 0 1.67.94 2.61 2.3 2.61.84 0 1.67-.53 2.3-1.25.11.94.94 1.45 1.98 1.45 1.67 0 3.77-1.67 3.77-5C14 2.61 11.59 0 7.83 0 3.66 0 0 3.33 0 8.33 0 12.71 2.92 15 6.58 15zm-.31-5c-.73 0-1.36-.52-1.36-1.67 0-1.45.94-3.22 2.41-3.22.52 0 .84.2 1.25.83l-.52 3.02c-.63.73-1.25 1.05-1.78 1.05V10z"></path></svg>
+              </button>
+
+              <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-nw" aria-label="Reference an issue or pull request" tabindex="-1" data-prefix="#" data-prefix-space="" data-ga-click="Markdown Toolbar, click, reference">
+                <svg aria-hidden="true" class="octicon octicon-bookmark" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path d="M9 0H1C.27 0 0 .27 0 1v15l5-3.09L10 16V1c0-.73-.27-1-1-1zm-.78 4.25L6.36 5.61l.72 2.16c.06.22-.02.28-.2.17L5 6.6 3.12 7.94c-.19.11-.25.05-.2-.17l.72-2.16-1.86-1.36c-.17-.16-.14-.23.09-.23l2.3-.03.7-2.16h.25l.7 2.16 2.3.03c.23 0 .27.08.09.23h.01z"></path></svg>
+              </button>
+          </div>
+      </div>
+      <nav class="tabnav-tabs" role="tablist">
+        <button type="button" class="btn-link tabnav-tab write-tab js-write-tab selected " role="tab" aria-selected="true">Write</button>
+        <button type="button" class="btn-link tabnav-tab preview-tab js-preview-tab " role="tab">Preview</button>
+      </nav>
+  </div>
+
+    <p class="comment-form-stale">
+      <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg> The content you are editing has changed. Please try again.
+    </p>
+
+  <div class="comment-form-error js-comment-form-error" style="display:none">    There was an error creating your Issue.
+</div>
+  <div class="write-content js-write-bucket js-uploadable-container js-upload-markdown-image is-default upload-enabled" data-upload-policy-url="/upload/policies/assets" data-upload-repository-id="66430544">
+      <input type="hidden" name="context" value="">
+
+    <input type="hidden" name="saved_reply_id" class="js-saved-reply-id js-resettable-field" value="" data-reset-value="">
+
+    <textarea name="issue_comment[body]" tabindex="1" id="issuecomment-241974656-body" placeholder="Leave a comment" aria-label="Comment body" class="form-control input-contrast comment-form-textarea js-comment-field js-improved-comment-field js-task-list-field js-quick-submit js-size-to-fit js-suggester-field js-quote-selection-target js-session-resumable">for文で　配列level をスキャンして、player(4または6）なら、配置する
+```
+   for(i=0;i&lt;7;i++){ //行
+             for(j=0;j&lt;7;j++){//列
+                switch(level[i][j]){
+                case 4:
+                case 6:
+                    playerSprite = cc.Sprite.create(cache.getSpriteFrame("player.png"));
+                    playerSprite.setPosition(165+25*j,185-25*i);
+                    playerSprite.setScale(5);
+                    this.addChild(playerSprite);
+                    playerPosition = {x:j,y:i};
+      }
+}
+```
+このとき、現在のプレイヤーの**マップ上の位置**を管理するため、playerPosition に　i,jを格納しています。
+  playerPosition = {
+　　　　x　:　j,
+　　　　y　:　i
+};
+playPositionはｘ、ｙというプロパティをもっていて　その値の初期値がｊ , i  であるという意味になります。
+</textarea>
+
+          <p class="drag-and-drop">
+    <span class="default">
+        Attach files by dragging &amp; dropping,
+        <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser" aria-label="Attach files to your comment">
+        <button class="btn-link manual-file-chooser-text" type="button" aria-hidden="true">selecting them</button>, or pasting
+        from the clipboard.
+    </span>
+    <span class="loading">
+      <img alt="" height="16" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/octocat-spinner-32.gif" width="16"> Uploading your files…
+    </span>
+    <span class="error bad-file">
+      Unfortunately, we don’t support that file type.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again</button> with a
+        PNG, GIF, JPG, DOCX, PPTX, XLSX, TXT, PDF, or ZIP.
+      </span>
+    </span>
+    <span class="error bad-permissions">
+      Attaching documents requires write permission to this repository.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again</button> with a PNG, GIF, or JPG.
+      </span>
+    </span>
+    <span class="error repository-required">
+      Unfortunately, we don’t support that file type.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again</button> with a PNG, GIF, or JPG.
+      </span>
+    </span>
+    <span class="error too-big">
+      Yowza, that’s a big file.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again</button> with a file smaller than 10MB.
+      </span>
+    </span>
+    <span class="error empty">
+      This file is empty.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again</button> with a file that’s not empty.
+      </span>
+    </span>
+    <span class="error hidden-file">
+      This file is hidden.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again</button> with another file.
+      </span>
+    </span>
+    <span class="error failed-request">
+      Something went really wrong, and we can’t process that file.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again.</button>
+      </span>
+    </span>
+  </p>
+
+
+    <div class="suggester-container">
+      <div class="suggester js-suggester js-navigation-container" data-url="/hosokawa9360/07_CocosbanGame_js/suggestions/issue/172877090" data-log-mention-url="/hosokawa9360/07_CocosbanGame_js/suggestions/log_mention?repository_id=66430544" data-log-mention-csrf-token="Kt52ApzcpNqP/589EiRpSuES+7KQ/HMLExcFkBoVEWDI2NucCUplyyZihC5/gwzwYVEuRJgddOvng1SDFhbMIQ==">
+      </div>
+    </div>
+  </div>
+
+  <div class="preview-content">
+    <div class="comment">
+  <div class="comment-body markdown-body js-preview-body">
+    <p>Nothing to preview</p>
+  </div>
+</div>
+
+  </div>
+
+  <div class="toolbar-help">
+      <a class="tabnav-extra" href="https://guides.github.com/features/mastering-markdown/" target="_blank" data-ga-click="Markdown Toolbar, click, help">
+        <svg aria-hidden="true" class="octicon octicon-markdown" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M14.85 3H1.15C.52 3 0 3.52 0 4.15v7.69C0 12.48.52 13 1.15 13h13.69c.64 0 1.15-.52 1.15-1.15v-7.7C16 3.52 15.48 3 14.85 3zM9 11H7V8L5.5 9.92 4 8v3H2V5h2l1.5 2L7 5h2v6zm2.99.5L9.5 8H11V5h2v3h1.5l-2.51 3.5z"></path></svg>
+        Styling with Markdown is supported
+      </a>
+  </div>
+
+    <div class="form-actions">
+      <button class="btn btn-primary" type="submit" tabindex="1" data-disable-with="">Update comment</button>
+      <button class="btn btn-danger js-comment-cancel-button" type="button" tabindex="1" data-confirm-text="Are you sure you want to discard your unsaved changes?">
+        Cancel
+      </button>
+    </div>
+
+  <div class="comment-form-error comment-form-bottom js-comment-update-error"></div>
+</div>
+
+</form>
+    
+
+<div class="comment-reactions  js-reactions-container js-socket-channel js-updatable-content" data-channel="tenant:1:reaction:issue-comment:241974656" data-url="/hosokawa9360/07_CocosbanGame_js/reactions/issue-comment/241974656">
+</div>
+
+</div>
+
+  </div>
+  
+
+
+      
+
+
+  <div class="discussion-item discussion-item-closed">
+    <div class="discussion-item-header" id="event-765562824">
+
+      <span class="discussion-item-icon">
+        <svg aria-hidden="true" class="octicon octicon-circle-slash" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm0 1.3c1.3 0 2.5.44 3.47 1.17l-8 8A5.755 5.755 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zm0 11.41c-1.3 0-2.5-.44-3.47-1.17l8-8c.73.97 1.17 2.17 1.17 3.47 0 3.14-2.56 5.7-5.7 5.7z"></path></svg>
+      </span>
+      <img alt="@hosokawa9360" class="avatar" height="16" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/19336517(3)" width="16">
+      <a href="https://github.com/hosokawa9360" class="author">hosokawa9360</a>
+      
+      closed this   <a href="https://github.com/hosokawa9360/07_CocosbanGame_js/issues/3#event-765562824" class="timestamp"><relative-time class="timestamp" datetime="2016-08-24T07:13:24Z" title="2016年8月24日 16:13 JST">2 hours ago</relative-time></a>
+    </div>
+  </div>
+
+  <div class="closed-banner"></div>
+
+
+
+
+
+
+
+<!-- Rendered timeline since 2016-08-24 00:13:24 -->
+<div id="partial-timeline-marker" class="js-timeline-marker js-socket-channel js-updatable-content" data-channel="tenant:1:issue:172877090" data-url="/hosokawa9360/07_CocosbanGame_js/issues/3/show_partial?partial=issues%2Ftimeline_marker&amp;since=1472022804" data-last-modified="Wed, 24 Aug 2016 07:13:24 GMT">
+
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="https://github.com/hosokawa9360/07_CocosbanGame_js/notifications/mark?ids=162447856" class="hidden js-timeline-marker-form" data-form-nonce="9a18e08f370017694cb07e9d3ca1878da7c8aafe" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="DzQcTANKBEyRrgGciekyx+hNI1RqxhfF3e3iQ+FHxC37M+z1/lfCe9LBPXdxCzfcW9gmHiw0hDIdFj2BTpdwsw=="></div>
+</form></div>
+
+
+        </div>
+
+          <div class="discussion-timeline-actions">
+              
+  
+<div class="timeline-comment-wrapper timeline-new-comment js-comment-container ">
+  <a href="https://github.com/hosokawa9360"><img alt="@hosokawa9360" class="timeline-comment-avatar" height="48" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/19336517(2)" width="48"></a>
+
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="https://github.com/hosokawa9360/07_CocosbanGame_js/issue_comments" class="js-new-comment-form" data-form-nonce="9a18e08f370017694cb07e9d3ca1878da7c8aafe" data-remote="true" data-type="json" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="32ndnIBsPaLuoTHVYBzIqv84jc+/9jqmDxw6cQuYUAZ2NE5tXVbCq/Ip6Jzbjnzse41PdZ5yk0fHKz7Dz2Iw2g=="></div>
+    <div class="timeline-comment">
+      <input type="hidden" name="issue" value="3">
+        <div class="js-suggester-container  js-previewable-comment-form previewable-comment-form write-selected" data-preview-url="/preview?markdown_unsupported=false&amp;repository=66430544&amp;subject=3&amp;subject_type=Issue">
+  <div class="comment-form-head tabnav">
+      <div class="js-toolbar toolbar-commenting">
+        <div class="toolbar-group">
+          <div class="toolbar-item dropdown js-menu-container">
+            <button type="button" class="js-menu-target menu-target tooltipped tooltipped-n" aria-label="Add header text" tabindex="-1">
+              <svg aria-hidden="true" class="octicon octicon-text-size" height="16" version="1.1" viewBox="0 0 18 16" width="18"><path d="M13.62 9.08L12.1 3.66h-.06l-1.5 5.42h3.08zM5.7 10.13S4.68 6.52 4.53 6.02h-.08l-1.13 4.11H5.7zM17.31 14h-2.25l-.95-3.25h-4.07L9.09 14H6.84l-.69-2.33H2.87L2.17 14H0l3.3-9.59h2.5l2.17 6.34L10.86 2h2.52l3.94 12h-.01z"></path></svg>
+              <span class="dropdown-caret"></span>
+            </button>
+
+            <div class="dropdown-menu-content js-menu-content">
+              <ul class="dropdown-menu dropdown-menu-s">
+                <button type="button" class="js-toolbar-item dropdown-item dropdown-header1" data-prefix="# " data-ga-click="Markdown Toolbar, click, header1">
+                  Header
+                </button>
+                <button type="button" class="js-toolbar-item dropdown-item dropdown-header2" data-prefix="## " data-ga-click="Markdown Toolbar, click, header2">
+                  Header
+                </button>
+                <button type="button" class="js-toolbar-item dropdown-item dropdown-header3" data-prefix="### " data-ga-click="Markdown Toolbar, click, header3">
+                  Header
+                </button>
+              </ul>
+            </div>
+          </div>
+
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Add bold text &lt;ctrl+b&gt;" tabindex="-1" data-prefix="**" data-suffix="**" data-toolbar-hotkey="b" data-ga-click="Markdown Toolbar, click, bold" data-trim-first="">
+            <svg aria-hidden="true" class="octicon octicon-bold" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path d="M1 2h3.83c2.48 0 4.3.75 4.3 2.95 0 1.14-.63 2.23-1.67 2.61v.06c1.33.3 2.3 1.23 2.3 2.86 0 2.39-1.97 3.52-4.61 3.52H1V2zm3.66 4.95c1.67 0 2.38-.66 2.38-1.69 0-1.17-.78-1.61-2.34-1.61H3.13v3.3h1.53zm.27 5.39c1.77 0 2.75-.64 2.75-1.98 0-1.27-.95-1.81-2.75-1.81h-1.8v3.8h1.8v-.01z"></path></svg>
+          </button>
+
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Add italic text &lt;ctrl+i&gt;" tabindex="-1" data-prefix="_" data-suffix="_" data-toolbar-hotkey="i" data-ga-click="Markdown Toolbar, click, italic" data-trim-first="">
+            <svg aria-hidden="true" class="octicon octicon-italic" height="16" version="1.1" viewBox="0 0 6 16" width="6"><path d="M2.81 5h1.98L3 14H1l1.81-9zm.36-2.7c0-.7.58-1.3 1.33-1.3.56 0 1.13.38 1.13 1.03 0 .75-.59 1.3-1.33 1.3-.58 0-1.13-.38-1.13-1.03z"></path></svg>
+          </button>
+        </div>
+
+        <div class="toolbar-group">
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Insert a quote" tabindex="-1" data-prefix="&gt; " data-multiline="true" data-ga-click="Markdown Toolbar, click, quote" data-surround-with-newlines="">
+            <svg aria-hidden="true" class="octicon octicon-quote" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M6.16 3.5C3.73 5.06 2.55 6.67 2.55 9.36c.16-.05.3-.05.44-.05 1.27 0 2.5.86 2.5 2.41 0 1.61-1.03 2.61-2.5 2.61-1.9 0-2.99-1.52-2.99-4.25 0-3.8 1.75-6.53 5.02-8.42L6.16 3.5zm7 0c-2.43 1.56-3.61 3.17-3.61 5.86.16-.05.3-.05.44-.05 1.27 0 2.5.86 2.5 2.41 0 1.61-1.03 2.61-2.5 2.61-1.89 0-2.98-1.52-2.98-4.25 0-3.8 1.75-6.53 5.02-8.42l1.14 1.84h-.01z"></path></svg>
+          </button>
+
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Insert code" tabindex="-1" data-prefix="`" data-suffix="`" data-block-prefix="```" data-block-suffix="```" data-ga-click="Markdown Toolbar, click, code">
+            <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"></path></svg>
+          </button>
+
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Add a link &lt;ctrl+k&gt;" tabindex="-1" data-prefix="[" data-suffix="](url)" data-replace-next="url" data-toolbar-hotkey="k" data-scan-for="https?://" data-ga-click="Markdown Toolbar, click, link">
+            <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg>
+          </button>
+        </div>
+
+        <div class="toolbar-group">
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Add a bulleted list" tabindex="-1" data-multiline="true" data-prefix="- " data-ga-click="Markdown Toolbar, click, unordered list" data-surround-with-newlines="">
+            <svg aria-hidden="true" class="octicon octicon-list-unordered" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M2 13c0 .59 0 1-.59 1H.59C0 14 0 13.59 0 13c0-.59 0-1 .59-1h.81c.59 0 .59.41.59 1H2zm2.59-9h6.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1H4.59C4 2 4 2.41 4 3c0 .59 0 1 .59 1zM1.41 7H.59C0 7 0 7.41 0 8c0 .59 0 1 .59 1h.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1h.01zm0-5H.59C0 2 0 2.41 0 3c0 .59 0 1 .59 1h.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1h.01zm10 5H4.59C4 7 4 7.41 4 8c0 .59 0 1 .59 1h6.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1h.01zm0 5H4.59C4 12 4 12.41 4 13c0 .59 0 1 .59 1h6.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1h.01z"></path></svg>
+          </button>
+          <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Add a numbered list" tabindex="-1" data-prefix="1. " data-multiline="true" data-ga-click="Markdown Toolbar, click, ordered list" data-ordered-list="">
+            <svg aria-hidden="true" class="octicon octicon-list-ordered" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 13c0 .59 0 1-.59 1H4.59C4 14 4 13.59 4 13c0-.59 0-1 .59-1h6.81c.59 0 .59.41.59 1H12zM4.59 4h6.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1H4.59C4 2 4 2.41 4 3c0 .59 0 1 .59 1zm6.81 3H4.59C4 7 4 7.41 4 8c0 .59 0 1 .59 1h6.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1zM2 1h-.72c-.3.19-.58.25-1.03.34V2H1v2.14H.16V5H3v-.86H2V1zm.25 8.13c-.17 0-.45.03-.66.06.53-.56 1.14-1.25 1.14-1.89C2.71 6.52 2.17 6 1.37 6c-.59 0-.97.2-1.38.64l.58.58c.19-.19.38-.38.64-.38.28 0 .48.16.48.52 0 .53-.77 1.2-1.7 2.06V10h3l-.09-.88h-.66l.01.01zm-.08 3.78v-.03c.44-.19.64-.47.64-.86 0-.7-.56-1.11-1.44-1.11-.48 0-.89.19-1.28.52l.55.64c.25-.2.44-.31.69-.31.27 0 .42.13.42.36 0 .27-.2.44-.86.44v.75c.83 0 .98.17.98.47 0 .25-.23.38-.58.38-.28 0-.56-.14-.81-.38l-.48.66c.3.36.77.56 1.41.56.83 0 1.53-.41 1.53-1.16 0-.5-.31-.81-.77-.94v.01z"></path></svg>
+          </button>
+
+            <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-n" aria-label="Add a task list" tabindex="-1" data-prefix="- [ ] " data-toolbar-hotkey="L" data-multiline="" data-ga-click="Markdown Toolbar, click, task list" data-surround-with-newlines="">
+              <svg aria-hidden="true" class="octicon octicon-tasklist" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15.41 9H7.59C7 9 7 8.59 7 8c0-.59 0-1 .59-1h7.81c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM9.59 4C9 4 9 3.59 9 3c0-.59 0-1 .59-1h5.81c.59 0 .59.41.59 1 0 .59 0 1-.59 1H9.59zM0 3.91l1.41-1.3L3 4.2 7.09 0 8.5 1.41 3 6.91l-3-3zM7.59 12h7.81c.59 0 .59.41.59 1 0 .59 0 1-.59 1H7.59C7 14 7 13.59 7 13c0-.59 0-1 .59-1z"></path></svg>
+            </button>
+        </div>
+
+          <div class="toolbar-group">
+
+              <div class="toolbar-item select-menu select-menu-modal-right js-menu-container js-select-menu js-load-contents js-saved-reply-container" data-contents-url="/settings/replies">
+                <button type="button" class="js-menu-target menu-target tooltipped tooltipped-nw" aria-label="Insert a saved reply" tabindex="-1" data-ga-click="Markdown Toolbar, click, saved reply">
+                  <svg aria-hidden="true" class="octicon octicon-reply" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M6 3.5c3.92.44 8 3.125 8 10-2.312-5.062-4.75-6-8-6V11L.5 5.5 6 0v3.5z"></path></svg>
+                  <span class="dropdown-caret"></span>
+                </button>
+
+                <div class="select-menu-modal-holder js-menu-content js-navigation-container" aria-hidden="true">
+                  <div class="select-menu-modal">
+                    <div class="select-menu-header">
+                      <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+                      <span class="select-menu-title">Select a saved reply</span>
+                    </div>
+                    <div class="js-select-menu-deferred-content"></div>
+                    <div class="select-menu-loading-overlay anim-pulse">
+                      <svg aria-hidden="true" class="octicon octicon-octoface" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-nw" aria-label="Directly mention a user or team" tabindex="-1" data-prefix="@" data-prefix-space="" data-ga-click="Markdown Toolbar, click, mention">
+                <svg aria-hidden="true" class="octicon octicon-mention" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M6.58 15c1.25 0 2.52-.31 3.56-.94l-.42-.94c-.84.52-1.89.83-3.03.83-3.23 0-5.64-2.08-5.64-5.72 0-4.37 3.23-7.18 6.58-7.18 3.45 0 5.22 2.19 5.22 5.2 0 2.39-1.34 3.86-2.5 3.86-1.05 0-1.36-.73-1.05-2.19l.73-3.75H8.98l-.11.72c-.41-.63-.94-.83-1.56-.83-2.19 0-3.66 2.39-3.66 4.38 0 1.67.94 2.61 2.3 2.61.84 0 1.67-.53 2.3-1.25.11.94.94 1.45 1.98 1.45 1.67 0 3.77-1.67 3.77-5C14 2.61 11.59 0 7.83 0 3.66 0 0 3.33 0 8.33 0 12.71 2.92 15 6.58 15zm-.31-5c-.73 0-1.36-.52-1.36-1.67 0-1.45.94-3.22 2.41-3.22.52 0 .84.2 1.25.83l-.52 3.02c-.63.73-1.25 1.05-1.78 1.05V10z"></path></svg>
+              </button>
+
+              <button type="button" class="js-toolbar-item toolbar-item tooltipped tooltipped-nw" aria-label="Reference an issue or pull request" tabindex="-1" data-prefix="#" data-prefix-space="" data-ga-click="Markdown Toolbar, click, reference">
+                <svg aria-hidden="true" class="octicon octicon-bookmark" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path d="M9 0H1C.27 0 0 .27 0 1v15l5-3.09L10 16V1c0-.73-.27-1-1-1zm-.78 4.25L6.36 5.61l.72 2.16c.06.22-.02.28-.2.17L5 6.6 3.12 7.94c-.19.11-.25.05-.2-.17l.72-2.16-1.86-1.36c-.17-.16-.14-.23.09-.23l2.3-.03.7-2.16h.25l.7 2.16 2.3.03c.23 0 .27.08.09.23h.01z"></path></svg>
+              </button>
+          </div>
+      </div>
+      <nav class="tabnav-tabs" role="tablist">
+        <button type="button" class="btn-link tabnav-tab write-tab js-write-tab selected " role="tab" aria-selected="true">Write</button>
+        <button type="button" class="btn-link tabnav-tab preview-tab js-preview-tab " role="tab">Preview</button>
+      </nav>
+  </div>
+
+
+  <div class="comment-form-error js-comment-form-error" style="display:none">    There was an error creating your Issue.
+</div>
+  <div class="write-content js-write-bucket js-uploadable-container js-upload-markdown-image is-default upload-enabled" data-upload-policy-url="/upload/policies/assets" data-upload-repository-id="66430544">
+
+    <input type="hidden" name="saved_reply_id" class="js-saved-reply-id js-resettable-field" value="" data-reset-value="">
+
+    <textarea name="comment[body]" tabindex="1" id="new_comment_field" placeholder="Leave a comment" aria-label="Comment body" class="form-control input-contrast comment-form-textarea js-comment-field js-improved-comment-field js-task-list-field js-quick-submit js-size-to-fit js-suggester-field js-quote-selection-target js-session-resumable"></textarea>
+
+          <p class="drag-and-drop">
+    <span class="default">
+        Attach files by dragging &amp; dropping,
+        <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser" aria-label="Attach files to your comment">
+        <button class="btn-link manual-file-chooser-text" type="button" aria-hidden="true">selecting them</button>, or pasting
+        from the clipboard.
+    </span>
+    <span class="loading">
+      <img alt="" height="16" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/octocat-spinner-32.gif" width="16"> Uploading your files…
+    </span>
+    <span class="error bad-file">
+      Unfortunately, we don’t support that file type.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again</button> with a
+        PNG, GIF, JPG, DOCX, PPTX, XLSX, TXT, PDF, or ZIP.
+      </span>
+    </span>
+    <span class="error bad-permissions">
+      Attaching documents requires write permission to this repository.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again</button> with a PNG, GIF, or JPG.
+      </span>
+    </span>
+    <span class="error repository-required">
+      Unfortunately, we don’t support that file type.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again</button> with a PNG, GIF, or JPG.
+      </span>
+    </span>
+    <span class="error too-big">
+      Yowza, that’s a big file.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again</button> with a file smaller than 10MB.
+      </span>
+    </span>
+    <span class="error empty">
+      This file is empty.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again</button> with a file that’s not empty.
+      </span>
+    </span>
+    <span class="error hidden-file">
+      This file is hidden.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again</button> with another file.
+      </span>
+    </span>
+    <span class="error failed-request">
+      Something went really wrong, and we can’t process that file.
+      <input type="file" multiple="multiple" class="manual-file-chooser js-manual-file-chooser">
+      <span class="drag-and-drop-error-info">
+        <button class="btn-link manual-file-chooser-text">Try again.</button>
+      </span>
+    </span>
+  </p>
+
+
+    <div class="suggester-container">
+      <div class="suggester js-suggester js-navigation-container" data-url="/hosokawa9360/07_CocosbanGame_js/suggestions/issue/172877090" data-log-mention-url="/hosokawa9360/07_CocosbanGame_js/suggestions/log_mention?repository_id=66430544" data-log-mention-csrf-token="Wos387je7fjiIwpkd9qMBbqvT1/e5mPogNqRrcS4X6LSCaftMv/B3nlWzfAMOGtwC0JOSC44jK4pQnknkmC5cw==">
+      </div>
+    </div>
+  </div>
+
+  <div class="preview-content">
+    <div class="comment">
+  <div class="comment-body markdown-body js-preview-body">
+    <p>Nothing to preview</p>
+  </div>
+</div>
+
+  </div>
+
+  <div class="toolbar-help">
+      <a class="tabnav-extra" href="https://guides.github.com/features/mastering-markdown/" target="_blank" data-ga-click="Markdown Toolbar, click, help">
+        <svg aria-hidden="true" class="octicon octicon-markdown" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M14.85 3H1.15C.52 3 0 3.52 0 4.15v7.69C0 12.48.52 13 1.15 13h13.69c.64 0 1.15-.52 1.15-1.15v-7.7C16 3.52 15.48 3 14.85 3zM9 11H7V8L5.5 9.92 4 8v3H2V5h2l1.5 2L7 5h2v6zm2.99.5L9.5 8H11V5h2v3h1.5l-2.51 3.5z"></path></svg>
+        Styling with Markdown is supported
+      </a>
+  </div>
+
+
+  <div class="comment-form-error comment-form-bottom js-comment-update-error"></div>
+</div>
+
+        <div class="form-actions">
+          <div id="partial-new-comment-form-actions" class="js-socket-channel js-updatable-content" data-channel="tenant:1:issue:172877090:state" data-url="/hosokawa9360/07_CocosbanGame_js/issues/3/show_partial?partial=issues%2Fform_actions">
+
+  <button type="submit" class="btn btn-primary" tabindex="2" data-disable-with="" data-disable-invalid="">
+    Comment
+  </button>
+
+      <button type="submit" name="comment_and_open" value="1" class="btn js-comment-and-button" tabindex="3" data-comment-text="Reopen and comment" data-disable-with="">
+      Reopen issue
+    </button>
+
+</div>
+
+        </div>
+    </div>
+</form>
+</div>
+
+
+          </div>
+      </div>
+
+    </div>
+    <div class="clear"></div>
+  </div>
+
+</div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div></div>
+  </div>
+
+    </div>
+
+        <div class="container site-footer-container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+      <li><a href="https://developer.github.com/" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com/" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com/" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+
+    <a href="https://github.com/" aria-label="Homepage" class="site-footer-mark" title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+    <ul class="site-footer-links">
+      <li>© 2016 <span title="0.18314s from github-fe129-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a href="https://help.github.com/" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+    
+
+    <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+      <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg>
+      <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+        <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+      </button>
+      You can't perform that action at this time.
+    </div>
+
+
+      
+      <script crossorigin="anonymous" integrity="sha256-dOKIA1HONo2PClLxKnRStCK+9jl9VHfYEgIH6nnw39k=" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/frameworks-74e2880351ce368d8f0a52f12a7452b422bef6397d5477d8120207ea79f0dfd9.js"></script>
+      <script async="async" crossorigin="anonymous" integrity="sha256-t6tzzhgs+eLZVTBkaEg3vPjNqMMeVzFmw+5RXSw+CdU=" src="./パズルマップを作成する · Issue #3 · hosokawa9360_07_CocosbanGame_js_files/github-b7ab73ce182cf9e2d9553064684837bcf8cda8c31e573166c3ee515d2c3e09d5.js"></script>
+      
+      
+      
+      
+      
+      
+    <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
+      <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg>
+      <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="https://github.com/hosokawa9360/07_CocosbanGame_js/issues/3">Reload</a> to refresh your session.</span>
+      <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="https://github.com/hosokawa9360/07_CocosbanGame_js/issues/3">Reload</a> to refresh your session.</span>
+    </div>
+    <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+    </button>
+  </div>
+</div>
+
+  
+
+
+</body></html>
